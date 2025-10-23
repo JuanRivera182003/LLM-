@@ -1,0 +1,1001 @@
+input,output
+intent: tell object: toys location: on the side table attribute: biggest,navigate to on the side table -> detect_object biggest toys at on the side table -> describe_property -> navigate to operator -> tell
+intent: tell object: toys location: on the desk attribute: heaviest,navigate to on the desk -> detect_object heaviest toys at on the desk -> describe_property -> navigate to operator -> tell
+intent: navigate location: bathroom intent: locate filter: right arm person: person intent: guide location: drinks bar,navigate to bathroom -> detect_person with right arm -> navigate to drinks bar -> guide_person to drinks bar
+intent: locate object: cans location: bedroom intent: get intent: deliver location: bedroom filter: left arm recipient: person,navigate to bedroom -> detect_object cans at bedroom -> grasp -> navigate to bedroom -> deliver cans to person
+intent: locate object: book location: living room intent: grasp intent: bring recipient: me,navigate to living room -> detect_object book at living room -> grasp -> deliver book to me
+intent: greet location: terrace filter: wearing person: yellow t shirt intent: guide location: bedroom,navigate to terrace -> greet_person yellow t shirt with wearing at terrace -> navigate to bedroom -> guide_person to bedroom
+intent: lead location: workshop filter: wearing person: orange jacket,navigate to workshop -> guide_person orange jacket to workshop
+intent: bring object: tablet location: shelf recipient: me,navigate to shelf -> grasp -> navigate to shelf -> deliver tablet to me
+intent: go location: study intent: meet person: Rosa intent: say content: your teams name,navigate to study -> meet_person Rosa -> greet_person
+intent: tell object: plate location: on the counter,navigate to on the counter -> count plate at on the counter -> navigate to operator -> tell
+intent: tell location: on the shelf attribute: thinnest,navigate to on the shelf -> detect_object thinnest at on the shelf -> describe_property -> navigate to operator -> tell
+intent: tell location: on the shelf attribute: lightest,navigate to on the shelf -> detect_object lightest at on the shelf -> describe_property -> navigate to operator -> tell
+intent: find location: closet filter: standing person: person intent: escort location: workshop,navigate to closet -> detect_person with pose standing at closet -> navigate to workshop -> guide_person to workshop
+intent: navigate location: desk intent: locate object: cans intent: get intent: deliver location: storage room recipient: Karen,navigate to desk -> detect_object cans -> grasp -> navigate to storage room -> deliver cans to Karen
+intent: tell location: on the desk attribute: smallest,navigate to on the desk -> detect_object smallest at on the desk -> describe_property -> navigate to operator -> tell
+intent: salute location: laundry room filter: wearing person: orange t shirt intent: tell content: time,navigate to laundry room -> greet_person orange t shirt with wearing at laundry room -> tell time
+intent: get object: remotes location: desk intent: bring recipient: me,navigate to desk -> grasp -> deliver remotes to me
+intent: tell location: bathroom content: pose person: person,navigate to bathroom -> tell pose
+intent: tell object: bottle location: on the desk,navigate to on the desk -> count bottle at on the desk -> navigate to operator -> tell
+intent: grasp object: plates location: desk intent: place location: on the counter,navigate to desk -> grasp -> navigate to on the counter -> place at on the counter
+intent: tell object: cup location: on the garden table,navigate to on the garden table -> count cup at on the garden table -> navigate to operator -> tell
+intent: tell location: closet filter: wearing person: blue shirts,navigate to closet -> detect_person with wearing at closet -> describe_property -> navigate to operator -> tell
+intent: tell object: glass location: on the garden table,navigate to on the garden table -> count glass at on the garden table -> navigate to operator -> tell
+intent: escort location: office filter: wearing person: gray t shirt,navigate to office -> guide_person gray t shirt to office
+intent: escort location: laundry room person: Sam,navigate to laundry room -> guide_person Sam to laundry room
+intent: tell location: on the counter attribute: biggest,navigate to on the counter -> detect_object biggest at on the counter -> describe_property -> navigate to operator -> tell
+intent: meet location: workshop person: Tom intent: follow location: office,navigate to workshop -> meet_person Tom at workshop -> navigate to office -> guide_person to office
+intent: bring object: plate location: side table recipient: me,navigate to side table -> grasp -> navigate to side table -> deliver plate to me
+intent: tell location: workshop filter: wearing person: orange coats,navigate to workshop -> detect_person with wearing at workshop -> describe_property -> navigate to operator -> tell
+intent: navigate location: study intent: find object: box intent: grasp intent: deliver location: workshop recipient: Rosa,navigate to study -> detect_object box -> grasp -> navigate to workshop -> deliver box to Rosa
+intent: tell object: bottles location: on the garden table attribute: largest,navigate to on the garden table -> detect_object largest bottles at on the garden table -> describe_property -> navigate to operator -> tell
+intent: tell object: can location: on the side table,navigate to on the side table -> count can at on the side table -> navigate to operator -> tell
+intent: follow location: garden person: Olivia,navigate to garden -> guide_person Olivia to garden
+intent: tell object: mugs location: on the counter attribute: thinnest,navigate to on the counter -> detect_object thinnest mugs at on the counter -> describe_property -> navigate to operator -> tell
+intent: tell location: on the counter attribute: lightest,navigate to on the counter -> detect_object lightest at on the counter -> describe_property -> navigate to operator -> tell
+intent: take object: bottles location: shelf intent: bring recipient: me,navigate to shelf -> grasp -> deliver bottles to me
+intent: locate object: toy location: study intent: get intent: place location: on the garden table,navigate to study -> detect_object toy at study -> grasp -> navigate to on the garden table -> place at on the garden table
+intent: tell location: entrance filter: wearing person: white jackets,navigate to entrance -> detect_person with wearing at entrance -> describe_property -> navigate to operator -> tell
+intent: meet location: study person: Ingrid intent: find location: closet,navigate to study -> meet_person Ingrid at study -> navigate to closet
+intent: tell location: kitchen filter: wearing person: white t shirts,navigate to kitchen -> detect_person with wearing at kitchen -> describe_property -> navigate to operator -> tell
+intent: tell location: on the desk attribute: smallest,navigate to on the desk -> detect_object smallest at on the desk -> describe_property -> navigate to operator -> tell
+intent: meet location: study person: Leo intent: tell content: day,navigate to study -> meet_person Leo at study -> tell day
+intent: tell location: garden table content: pose person: person,navigate to garden table -> tell pose
+intent: escort location: terrace filter: standing person: person,navigate to terrace -> guide_person person to terrace
+intent: tell location: on the side table attribute: largest,navigate to on the side table -> detect_object largest at on the side table -> describe_property -> navigate to operator -> tell
+intent: tell location: office filter: waving content: day today person: person,navigate to office -> tell day today
+intent: fetch object: tray location: shelf intent: deliver recipient: me,navigate to shelf -> detect_object tray at shelf -> deliver tray to me
+intent: tell object: remote location: on the shelf,navigate to on the shelf -> count remote at on the shelf -> navigate to operator -> tell
+intent: go location: drinks bar intent: meet person: Grace intent: say content: yourself,navigate to drinks bar -> meet_person Grace -> greet_person
+intent: introduce location: dining area filter: wearing person: red t shirt intent: follow,navigate to dining area -> introduce_person -> guide_person
+intent: tell location: counter content: gesture person: person,navigate to counter -> tell gesture
+intent: tell location: closet content: name person: person,navigate to closet -> tell name
+intent: meet location: bedroom person: Frank intent: take location: balcony,navigate to bedroom -> meet_person Frank at bedroom -> navigate to balcony -> grasp
+intent: follow location: garage filter: right arm person: person,navigate to garage -> guide_person person to garage
+intent: guide location: bedroom person: Noah,navigate to bedroom -> guide_person Noah to bedroom
+intent: follow location: terrace person: Rosa,navigate to terrace -> guide_person Rosa to terrace
+intent: tell location: laundry room content: pose person: person,navigate to laundry room -> tell pose
+intent: locate object: mug location: laundry room intent: grasp intent: place location: on the counter,navigate to laundry room -> detect_object mug at laundry room -> grasp -> navigate to on the counter -> place at on the counter
+intent: take location: bathroom person: Maria,navigate to bathroom -> grasp
+intent: escort location: storage room filter: wearing person: white coat,navigate to storage room -> guide_person white coat to storage room
+intent: tell object: cups location: on the shelf attribute: biggest,navigate to on the shelf -> detect_object biggest cups at on the shelf -> describe_property -> navigate to operator -> tell
+intent: tell location: on the desk attribute: smallest,navigate to on the desk -> detect_object smallest at on the desk -> describe_property -> navigate to operator -> tell
+intent: give object: magazine location: side table recipient: me,navigate to side table -> grasp -> navigate to side table -> deliver magazine to me
+intent: tell location: on the desk attribute: biggest,navigate to on the desk -> detect_object biggest at on the desk -> describe_property -> navigate to operator -> tell
+intent: tell object: cans location: on the side table attribute: heaviest,navigate to on the side table -> detect_object heaviest cans at on the side table -> describe_property -> navigate to operator -> tell
+intent: grasp object: cans location: shelf intent: deliver location: workshop filter: lying recipient: person,navigate to shelf -> grasp -> navigate to workshop -> deliver cans to person
+intent: tell location: on the desk attribute: largest,navigate to on the desk -> detect_object largest at on the desk -> describe_property -> navigate to operator -> tell
+intent: fetch object: books location: shelf intent: bring location: living room recipient: Alice,navigate to shelf -> detect_object books at shelf -> navigate to living room -> deliver books to Alice
+intent: say location: bathroom filter: left arm content: day person: person,navigate to bathroom -> greet_person person with left arm at bathroom
+intent: guide location: living room filter: lying person: person,navigate to living room -> guide_person person to living room
+intent: tell object: books location: on the shelf attribute: lightest,navigate to on the shelf -> detect_object lightest books at on the shelf -> describe_property -> navigate to operator -> tell
+intent: follow location: dining area filter: right arm person: person,navigate to dining area -> guide_person person to dining area
+intent: look object: mugs location: entrance intent: get intent: deliver location: entrance filter: sitting recipient: person,navigate to entrance -> detect_object mugs at entrance -> grasp -> navigate to entrance -> deliver mugs to person
+intent: look object: pen location: kitchen intent: get intent: give recipient: me,navigate to kitchen -> detect_object pen at kitchen -> grasp -> deliver pen to me
+intent: get object: magazines location: side table intent: give location: office recipient: Charlie,navigate to side table -> grasp -> navigate to office -> deliver magazines to Charlie
+intent: answer location: bathroom filter: waving content: question person: person,navigate to bathroom -> detect_person with pose waving at bathroom -> navigate to operator -> answer_question
+intent: follow location: living room filter: lying person: person,navigate to living room -> guide_person person to living room
+intent: tell location: on the counter attribute: biggest,navigate to on the counter -> detect_object biggest at on the counter -> describe_property -> navigate to operator -> tell
+intent: say location: balcony person: Jack intent: say content: your teams country,navigate to balcony -> greet_person Jack at balcony -> greet_person
+intent: tell location: dining area filter: wearing person: orange jackets,navigate to dining area -> detect_person with wearing at dining area -> describe_property -> navigate to operator -> tell
+intent: follow location: terrace filter: sitting person: person,navigate to terrace -> guide_person person to terrace
+intent: tell location: living room content: gesture person: person,navigate to living room -> tell gesture
+intent: tell location: balcony content: name person: person,navigate to balcony -> tell name
+intent: answer location: study filter: pointing content: question person: person,navigate to study -> detect_person with pose pointing at study -> navigate to operator -> answer_question
+intent: locate object: can location: study intent: grasp intent: give location: study filter: pointing recipient: person,navigate to study -> detect_object can at study -> grasp -> navigate to study -> deliver can to person
+intent: navigate location: patio intent: find object: charger intent: fetch intent: give recipient: me,navigate to patio -> detect_object charger -> deliver charger to me
+intent: get object: remotes location: garden table intent: give recipient: me,navigate to garden table -> grasp -> deliver remotes to me
+intent: tell object: book location: on the side table,navigate to on the side table -> count book at on the side table -> navigate to operator -> tell
+intent: tell location: entrance content: name person: person,navigate to entrance -> tell name
+intent: find location: patio filter: pointing person: person intent: lead location: bedroom,navigate to patio -> detect_person with pose pointing at patio -> navigate to bedroom -> guide_person to bedroom
+intent: find object: cans location: balcony intent: take intent: bring recipient: me,navigate to balcony -> detect_object cans at balcony -> grasp -> deliver cans to me
+intent: get object: magazine location: shelf intent: bring location: office recipient: Jack,navigate to shelf -> grasp -> navigate to office -> deliver magazine to Jack
+intent: meet location: drinks bar person: Frank intent: find location: living room,navigate to drinks bar -> meet_person Frank at drinks bar -> navigate to living room
+intent: tell object: magazines location: on the side table attribute: heaviest,navigate to on the side table -> detect_object heaviest magazines at on the side table -> describe_property -> navigate to operator -> tell
+intent: navigate location: entrance intent: locate filter: sitting person: person intent: follow,navigate to entrance -> detect_person with pose sitting -> guide_person
+intent: find location: garden filter: sitting person: person intent: follow,navigate to garden -> detect_person with pose sitting at garden -> guide_person
+intent: greet location: kitchen person: Diana intent: follow,navigate to kitchen -> greet_person Diana at kitchen -> guide_person
+intent: tell object: can location: on the counter,navigate to on the counter -> count can at on the counter -> navigate to operator -> tell
+intent: find location: kitchen filter: standing person: person intent: say content: your teams name,navigate to kitchen -> detect_person with pose standing at kitchen -> greet_person
+intent: bring object: glass location: garden table recipient: me,navigate to garden table -> grasp -> navigate to garden table -> deliver glass to me
+intent: locate object: magazines location: bathroom intent: get intent: bring recipient: me,navigate to bathroom -> detect_object magazines at bathroom -> grasp -> deliver magazines to me
+intent: tell object: magazines location: on the counter attribute: heaviest,navigate to on the counter -> detect_object heaviest magazines at on the counter -> describe_property -> navigate to operator -> tell
+intent: tell object: cans location: on the shelf attribute: smallest,navigate to on the shelf -> detect_object smallest cans at on the shelf -> describe_property -> navigate to operator -> tell
+intent: tell object: bottle location: on the shelf,navigate to on the shelf -> count bottle at on the shelf -> navigate to operator -> tell
+intent: follow location: storage room person: Maria,navigate to storage room -> guide_person Maria to storage room
+intent: tell object: book location: on the side table,navigate to on the side table -> count book at on the side table -> navigate to operator -> tell
+intent: locate object: glass location: balcony intent: take intent: deliver recipient: me,navigate to balcony -> detect_object glass at balcony -> grasp -> deliver glass to me
+intent: get object: tablet location: garden table intent: place location: on the side table,navigate to garden table -> grasp -> navigate to on the side table -> place at on the side table
+intent: fetch object: charger location: garden table intent: bring location: terrace recipient: Leo,navigate to garden table -> detect_object charger at garden table -> navigate to terrace -> deliver charger to Leo
+intent: go location: bedroom intent: find object: snacks intent: take intent: put location: on the counter,navigate to bedroom -> detect_object snacks -> grasp -> navigate to on the counter -> place at on the counter
+intent: tell location: storage room filter: lying,navigate to storage room -> detect_person with pose lying at storage room -> describe_property -> navigate to operator -> tell
+intent: navigate location: drinks bar intent: meet person: Maria intent: lead location: bathroom,navigate to drinks bar -> meet_person Maria -> navigate to bathroom -> guide_person to bathroom
+intent: tell location: kitchen filter: pointing content: day tomorrow person: person,navigate to kitchen -> tell day tomorrow
+intent: find object: pen location: entrance intent: take intent: deliver location: entrance recipient: Ingrid,navigate to entrance -> detect_object pen at entrance -> grasp -> navigate to entrance -> deliver pen to Ingrid
+intent: tell location: hallway filter: waving,navigate to hallway -> detect_person with pose waving at hallway -> describe_property -> navigate to operator -> tell
+intent: tell location: entrance filter: wearing person: black shirts,navigate to entrance -> detect_person with wearing at entrance -> describe_property -> navigate to operator -> tell
+intent: tell location: hallway filter: wearing person: white sweaters,navigate to hallway -> detect_person with wearing at hallway -> describe_property -> navigate to operator -> tell
+intent: find object: tablet location: study intent: fetch intent: bring location: study filter: sitting recipient: person,navigate to study -> detect_object tablet at study -> navigate to study -> deliver tablet to person
+intent: give object: book location: shelf recipient: me,navigate to shelf -> grasp -> navigate to shelf -> deliver book to me
+intent: tell object: remote location: on the garden table,navigate to on the garden table -> count remote at on the garden table -> navigate to operator -> tell
+intent: tell location: laundry room content: pose person: person,navigate to laundry room -> tell pose
+intent: tell object: mugs location: on the counter attribute: lightest,navigate to on the counter -> detect_object lightest mugs at on the counter -> describe_property -> navigate to operator -> tell
+intent: look object: bottles location: storage room intent: fetch intent: deliver location: storage room filter: pointing recipient: person,navigate to storage room -> detect_object bottles at storage room -> navigate to storage room -> deliver bottles to person
+intent: follow location: workshop person: Charlie,navigate to workshop -> guide_person Charlie to workshop
+intent: follow location: study filter: sitting person: person,navigate to study -> guide_person person to study
+intent: tell object: toy location: on the desk,navigate to on the desk -> count toy at on the desk -> navigate to operator -> tell
+intent: introduce location: terrace filter: wearing person: yellow t shirt intent: follow,navigate to terrace -> introduce_person -> guide_person
+intent: tell location: terrace content: name person: person,navigate to terrace -> tell name
+intent: meet location: bedroom person: Bob intent: locate location: garden,navigate to bedroom -> meet_person Bob at bedroom -> navigate to garden
+intent: say location: laundry room filter: pointing content: yourself person: person,navigate to laundry room -> greet_person person with pointing at laundry room
+intent: tell location: living room filter: wearing person: yellow shirts,navigate to living room -> detect_person with wearing at living room -> describe_property -> navigate to operator -> tell
+intent: tell object: mugs location: on the shelf attribute: lightest,navigate to on the shelf -> detect_object lightest mugs at on the shelf -> describe_property -> navigate to operator -> tell
+intent: tell location: bedroom content: name person: person,navigate to bedroom -> tell name
+intent: tell location: hallway filter: wearing person: yellow shirts,navigate to hallway -> detect_person with wearing at hallway -> describe_property -> navigate to operator -> tell
+intent: tell object: magazine location: on the side table,navigate to on the side table -> count magazine at on the side table -> navigate to operator -> tell
+intent: locate object: toys location: bathroom intent: grasp intent: bring recipient: me,navigate to bathroom -> detect_object toys at bathroom -> grasp -> deliver toys to me
+intent: tell location: drinks bar content: pose person: person,navigate to drinks bar -> tell pose
+intent: bring object: tray location: side table recipient: me,navigate to side table -> grasp -> navigate to side table -> deliver tray to me
+intent: tell object: glass location: on the counter,navigate to on the counter -> count glass at on the counter -> navigate to operator -> tell
+intent: meet location: drinks bar person: Jack intent: escort location: hallway,navigate to drinks bar -> meet_person Jack at drinks bar -> navigate to hallway -> guide_person to hallway
+intent: bring object: snack location: counter recipient: me,navigate to counter -> grasp -> navigate to counter -> deliver snack to me
+intent: answer location: dining area filter: left arm content: quiz person: person,navigate to dining area -> detect_person with left arm at dining area -> navigate to operator -> answer_question
+intent: answer location: patio filter: left arm content: question person: person,navigate to patio -> detect_person with left arm at patio -> navigate to operator -> answer_question
+intent: tell location: living room content: pose person: person,navigate to living room -> tell pose
+intent: navigate location: workshop intent: look object: plates intent: get intent: give location: patio recipient: Tom,navigate to workshop -> detect_object plates -> grasp -> navigate to patio -> deliver plates to Tom
+intent: tell object: cups location: on the side table attribute: lightest,navigate to on the side table -> detect_object lightest cups at on the side table -> describe_property -> navigate to operator -> tell
+intent: get object: bowl location: garden table intent: deliver recipient: me,navigate to garden table -> grasp -> deliver bowl to me
+intent: tell location: kitchen filter: wearing person: red sweaters,navigate to kitchen -> detect_person with wearing at kitchen -> describe_property -> navigate to operator -> tell
+intent: get object: magazines location: shelf intent: deliver recipient: me,navigate to shelf -> grasp -> deliver magazines to me
+intent: take location: entrance person: Karen,navigate to entrance -> grasp
+intent: tell location: hallway filter: waving,navigate to hallway -> detect_person with pose waving at hallway -> describe_property -> navigate to operator -> tell
+intent: tell location: kitchen filter: pointing,navigate to kitchen -> detect_person with pose pointing at kitchen -> describe_property -> navigate to operator -> tell
+intent: tell object: magazines location: on the side table attribute: biggest,navigate to on the side table -> detect_object biggest magazines at on the side table -> describe_property -> navigate to operator -> tell
+intent: meet location: dining area person: Ingrid intent: escort location: bedroom,navigate to dining area -> meet_person Ingrid at dining area -> navigate to bedroom -> guide_person to bedroom
+intent: tell object: remotes location: on the counter attribute: heaviest,navigate to on the counter -> detect_object heaviest remotes at on the counter -> describe_property -> navigate to operator -> tell
+intent: tell object: remote location: on the shelf,navigate to on the shelf -> count remote at on the shelf -> navigate to operator -> tell
+intent: tell object: can location: on the shelf,navigate to on the shelf -> count can at on the shelf -> navigate to operator -> tell
+intent: guide location: patio filter: pointing person: person,navigate to patio -> guide_person person to patio
+intent: tell object: remotes location: on the side table attribute: smallest,navigate to on the side table -> detect_object smallest remotes at on the side table -> describe_property -> navigate to operator -> tell
+intent: tell location: on the counter attribute: thinnest,navigate to on the counter -> detect_object thinnest at on the counter -> describe_property -> navigate to operator -> tell
+intent: tell location: on the side table attribute: heaviest,navigate to on the side table -> detect_object heaviest at on the side table -> describe_property -> navigate to operator -> tell
+intent: answer location: patio filter: right arm content: quiz person: person,navigate to patio -> detect_person with right arm at patio -> navigate to operator -> answer_question
+intent: tell location: on the counter attribute: thinnest,navigate to on the counter -> detect_object thinnest at on the counter -> describe_property -> navigate to operator -> tell
+intent: say location: entrance filter: wearing person: white coat intent: answer content: quiz,navigate to entrance -> greet_person white coat with wearing at entrance -> navigate to operator -> answer_question
+intent: introduce location: terrace filter: wearing person: white coat intent: follow,navigate to terrace -> introduce_person -> guide_person
+intent: look object: charger location: kitchen intent: grasp intent: give recipient: me,navigate to kitchen -> detect_object charger at kitchen -> grasp -> deliver charger to me
+intent: tell location: on the desk attribute: lightest,navigate to on the desk -> detect_object lightest at on the desk -> describe_property -> navigate to operator -> tell
+intent: look location: office filter: lying person: person intent: answer content: quiz,navigate to office -> detect_person with pose lying at office -> navigate to operator -> answer_question
+intent: tell location: on the counter attribute: heaviest,navigate to on the counter -> detect_object heaviest at on the counter -> describe_property -> navigate to operator -> tell
+intent: navigate location: office intent: locate object: glasses intent: grasp intent: give location: study recipient: Rosa,navigate to office -> detect_object glasses -> grasp -> navigate to study -> deliver glasses to Rosa
+intent: tell object: bottle location: on the shelf,navigate to on the shelf -> count bottle at on the shelf -> navigate to operator -> tell
+intent: tell location: side table content: gesture person: person,navigate to side table -> tell gesture
+intent: meet location: hallway person: Noah intent: follow location: terrace,navigate to hallway -> meet_person Noah at hallway -> navigate to terrace -> guide_person to terrace
+intent: answer location: balcony filter: pointing content: quiz person: person,navigate to balcony -> detect_person with pose pointing at balcony -> navigate to operator -> answer_question
+intent: tell location: on the shelf attribute: largest,navigate to on the shelf -> detect_object largest at on the shelf -> describe_property -> navigate to operator -> tell
+intent: tell location: kitchen filter: wearing person: black shirts,navigate to kitchen -> detect_person with wearing at kitchen -> describe_property -> navigate to operator -> tell
+intent: tell location: study filter: wearing person: white t shirts,navigate to study -> detect_person with wearing at study -> describe_property -> navigate to operator -> tell
+intent: tell object: cup location: on the side table,navigate to on the side table -> count cup at on the side table -> navigate to operator -> tell
+intent: meet location: study person: Rosa intent: look location: office,navigate to study -> meet_person Rosa at study -> navigate to office
+intent: say location: laundry room filter: pointing person: person,navigate to laundry room -> greet_person person with pointing at laundry room
+intent: tell object: magazine location: on the shelf,navigate to on the shelf -> count magazine at on the shelf -> navigate to operator -> tell
+intent: tell location: on the side table attribute: smallest,navigate to on the side table -> detect_object smallest at on the side table -> describe_property -> navigate to operator -> tell
+intent: tell location: on the shelf attribute: heaviest,navigate to on the shelf -> detect_object heaviest at on the shelf -> describe_property -> navigate to operator -> tell
+intent: follow location: drinks bar person: Alice,navigate to drinks bar -> guide_person Alice to drinks bar
+intent: escort location: closet filter: wearing person: gray coat,navigate to closet -> guide_person gray coat to closet
+intent: get object: toys location: shelf intent: bring location: closet filter: waving recipient: person,navigate to shelf -> grasp -> navigate to closet -> deliver toys to person
+intent: guide location: laundry room filter: wearing person: black sweater,navigate to laundry room -> guide_person black sweater to laundry room
+intent: tell location: hallway filter: waving content: day today person: person,navigate to hallway -> tell day today
+intent: follow location: workshop filter: standing person: person,navigate to workshop -> guide_person person to workshop
+intent: tell location: bedroom filter: waving content: time person: person,navigate to bedroom -> tell time
+intent: tell location: closet filter: wearing person: yellow blouses,navigate to closet -> detect_person with wearing at closet -> describe_property -> navigate to operator -> tell
+intent: say location: hallway person: Grace intent: escort location: patio,navigate to hallway -> greet_person Grace at hallway -> navigate to patio -> guide_person to patio
+intent: find location: hallway filter: sitting person: person intent: follow location: patio,navigate to hallway -> detect_person with pose sitting at hallway -> navigate to patio -> guide_person to patio
+intent: tell location: on the desk attribute: biggest,navigate to on the desk -> detect_object biggest at on the desk -> describe_property -> navigate to operator -> tell
+intent: meet location: workshop person: Alice intent: look location: terrace,navigate to workshop -> meet_person Alice at workshop -> navigate to terrace
+intent: guide location: drinks bar filter: wearing person: blue shirt,navigate to drinks bar -> guide_person blue shirt to drinks bar
+intent: navigate location: laundry room intent: locate location: left filter: pointing person: person intent: follow location: drinks bar,navigate to laundry room -> navigate to left -> detect_person with pose pointing at left -> navigate to drinks bar -> guide_person to drinks bar
+intent: tell location: on the shelf attribute: largest,navigate to on the shelf -> detect_object largest at on the shelf -> describe_property -> navigate to operator -> tell
+intent: look location: garage filter: pointing person: person intent: follow,navigate to garage -> detect_person with pose pointing at garage -> guide_person
+intent: go location: patio intent: look location: left filter: pointing person: person intent: follow,navigate to patio -> navigate to left -> detect_person with pose pointing at left -> guide_person
+intent: tell location: workshop filter: wearing person: red t shirts,navigate to workshop -> detect_person with wearing at workshop -> describe_property -> navigate to operator -> tell
+intent: meet location: terrace person: Eva intent: follow,navigate to terrace -> meet_person Eva at terrace -> guide_person
+intent: tell location: storage room content: pose person: person,navigate to storage room -> tell pose
+intent: navigate location: balcony intent: look object: snack intent: grasp intent: deliver recipient: me,navigate to balcony -> detect_object snack -> grasp -> deliver snack to me
+intent: tell object: mug location: on the side table,navigate to on the side table -> count mug at on the side table -> navigate to operator -> tell
+intent: go location: terrace intent: look object: charger intent: take intent: give location: garage recipient: Bob,navigate to terrace -> detect_object charger -> grasp -> navigate to garage -> deliver charger to Bob
+intent: meet location: garden person: Charlie intent: tell content: day tomorrow,navigate to garden -> meet_person Charlie at garden -> tell day tomorrow
+intent: tell location: on the side table attribute: lightest,navigate to on the side table -> detect_object lightest at on the side table -> describe_property -> navigate to operator -> tell
+intent: tell object: book location: on the desk,navigate to on the desk -> count book at on the desk -> navigate to operator -> tell
+intent: tell location: bedroom filter: wearing person: red coats,navigate to bedroom -> detect_person with wearing at bedroom -> describe_property -> navigate to operator -> tell
+intent: greet location: workshop filter: wearing person: black coat intent: follow,navigate to workshop -> greet_person black coat with wearing at workshop -> guide_person
+intent: locate object: cans location: office intent: take intent: place location: on the desk,navigate to office -> detect_object cans at office -> grasp -> navigate to on the desk -> place at on the desk
+intent: tell object: mugs location: on the garden table attribute: biggest,navigate to on the garden table -> detect_object biggest mugs at on the garden table -> describe_property -> navigate to operator -> tell
+intent: guide location: living room filter: right arm person: person,navigate to living room -> guide_person person to living room
+intent: tell object: can location: on the side table,navigate to on the side table -> count can at on the side table -> navigate to operator -> tell
+intent: tell location: on the garden table attribute: biggest,navigate to on the garden table -> detect_object biggest at on the garden table -> describe_property -> navigate to operator -> tell
+intent: look location: hallway filter: pointing person: person intent: follow,navigate to hallway -> detect_person with pose pointing at hallway -> guide_person
+intent: navigate location: workshop intent: find object: bottles intent: grasp intent: put location: on the desk,navigate to workshop -> detect_object bottles -> grasp -> navigate to on the desk -> place at on the desk
+intent: tell object: mugs location: on the shelf attribute: thinnest,navigate to on the shelf -> detect_object thinnest mugs at on the shelf -> describe_property -> navigate to operator -> tell
+intent: go location: entrance intent: find object: charger intent: get intent: give location: balcony recipient: Alice,navigate to entrance -> detect_object charger -> grasp -> navigate to balcony -> deliver charger to Alice
+intent: take object: pen location: garden table intent: deliver location: garage filter: standing recipient: person,navigate to garden table -> grasp -> navigate to garage -> deliver pen to person
+intent: guide location: drinks bar person: Hector,navigate to drinks bar -> guide_person Hector to drinks bar
+intent: look location: bathroom filter: standing person: person intent: lead location: office,navigate to bathroom -> detect_person with pose standing at bathroom -> navigate to office -> guide_person to office
+intent: find location: dining area filter: standing person: person intent: tell content: yourself,navigate to dining area -> detect_person with pose standing at dining area -> tell yourself
+intent: tell location: hallway filter: wearing person: red coats,navigate to hallway -> detect_person with wearing at hallway -> describe_property -> navigate to operator -> tell
+intent: meet location: patio person: Tom intent: answer content: question,navigate to patio -> meet_person Tom at patio -> navigate to operator -> answer_question
+intent: tell object: bottles location: on the desk attribute: thinnest,navigate to on the desk -> detect_object thinnest bottles at on the desk -> describe_property -> navigate to operator -> tell
+intent: tell location: on the garden table attribute: lightest,navigate to on the garden table -> detect_object lightest at on the garden table -> describe_property -> navigate to operator -> tell
+intent: go location: terrace intent: locate object: snacks intent: take intent: deliver location: kitchen filter: right arm recipient: person,navigate to terrace -> detect_object snacks -> grasp -> navigate to kitchen -> deliver snacks to person
+intent: get object: magazines location: garden table intent: deliver location: workshop filter: sitting recipient: person,navigate to garden table -> grasp -> navigate to workshop -> deliver magazines to person
+intent: navigate location: garden table intent: locate object: mugs intent: fetch intent: put location: on the desk,navigate to garden table -> detect_object mugs -> navigate to on the desk -> place at on the desk
+intent: go location: living room intent: meet person: Jack intent: escort location: garden,navigate to living room -> meet_person Jack -> navigate to garden -> guide_person to garden
+intent: navigate location: dining area intent: look object: magazines intent: get intent: bring location: closet recipient: Eva,navigate to dining area -> detect_object magazines -> grasp -> navigate to closet -> deliver magazines to Eva
+intent: navigate location: storage room intent: locate object: snacks intent: grasp intent: put location: on the side table,navigate to storage room -> detect_object snacks -> grasp -> navigate to on the side table -> place at on the side table
+intent: find object: key location: garage intent: fetch intent: deliver recipient: me,navigate to garage -> detect_object key at garage -> deliver key to me
+intent: tell location: on the shelf attribute: biggest,navigate to on the shelf -> detect_object biggest at on the shelf -> describe_property -> navigate to operator -> tell
+intent: look object: magazines location: balcony intent: get intent: deliver location: balcony filter: sitting recipient: person,navigate to balcony -> detect_object magazines at balcony -> grasp -> navigate to balcony -> deliver magazines to person
+intent: answer location: dining area filter: waving content: question person: person,navigate to dining area -> detect_person with pose waving at dining area -> navigate to operator -> answer_question
+intent: say location: study person: Frank intent: answer content: question,navigate to study -> greet_person Frank at study -> navigate to operator -> answer_question
+intent: tell location: on the garden table attribute: biggest,navigate to on the garden table -> detect_object biggest at on the garden table -> describe_property -> navigate to operator -> tell
+intent: take location: drinks bar person: Bob,navigate to drinks bar -> grasp
+intent: tell object: bottle location: on the shelf,navigate to on the shelf -> count bottle at on the shelf -> navigate to operator -> tell
+intent: follow location: workshop person: Jack,navigate to workshop -> guide_person Jack to workshop
+intent: tell object: bottle location: on the side table,navigate to on the side table -> count bottle at on the side table -> navigate to operator -> tell
+intent: escort location: dining area filter: lying person: person,navigate to dining area -> guide_person person to dining area
+intent: tell location: patio filter: lying,navigate to patio -> detect_person with pose lying at patio -> describe_property -> navigate to operator -> tell
+intent: salute location: bathroom filter: wearing person: white t shirt intent: answer content: question,navigate to bathroom -> greet_person white t shirt with wearing at bathroom -> navigate to operator -> answer_question
+intent: meet location: living room person: Rosa intent: answer content: quiz,navigate to living room -> meet_person Rosa at living room -> navigate to operator -> answer_question
+intent: bring object: glass location: counter recipient: me,navigate to counter -> grasp -> navigate to counter -> deliver glass to me
+intent: say location: garage person: Frank intent: follow location: entrance,navigate to garage -> greet_person Frank at garage -> navigate to entrance -> guide_person to entrance
+intent: tell object: mugs location: on the shelf attribute: lightest,navigate to on the shelf -> detect_object lightest mugs at on the shelf -> describe_property -> navigate to operator -> tell
+intent: navigate location: drinks bar intent: find object: glasses intent: get intent: place location: on the counter,navigate to drinks bar -> detect_object glasses -> grasp -> navigate to on the counter -> place at on the counter
+intent: tell location: on the side table attribute: largest,navigate to on the side table -> detect_object largest at on the side table -> describe_property -> navigate to operator -> tell
+intent: grasp object: glasses location: desk intent: place location: on the side table,navigate to desk -> grasp -> navigate to on the side table -> place at on the side table
+intent: tell location: garden content: gesture person: person,navigate to garden -> tell gesture
+intent: follow location: terrace person: Ingrid,navigate to terrace -> guide_person Ingrid to terrace
+intent: tell location: on the counter attribute: biggest,navigate to on the counter -> detect_object biggest at on the counter -> describe_property -> navigate to operator -> tell
+intent: meet location: desk person: Karen intent: locate location: garage,navigate to desk -> meet_person Karen at desk -> navigate to garage
+intent: answer location: closet filter: waving content: question person: person,navigate to closet -> detect_person with pose waving at closet -> navigate to operator -> answer_question
+intent: locate location: hallway filter: pointing person: person intent: lead location: bedroom,navigate to hallway -> detect_person with pose pointing at hallway -> navigate to bedroom -> guide_person to bedroom
+intent: tell location: on the desk attribute: heaviest,navigate to on the desk -> detect_object heaviest at on the desk -> describe_property -> navigate to operator -> tell
+intent: tell location: drinks bar filter: wearing person: blue sweaters,navigate to drinks bar -> detect_person with wearing at drinks bar -> describe_property -> navigate to operator -> tell
+intent: follow location: patio filter: pointing person: person,navigate to patio -> guide_person person to patio
+intent: tell location: entrance filter: wearing person: white shirts,navigate to entrance -> detect_person with wearing at entrance -> describe_property -> navigate to operator -> tell
+intent: meet location: entrance person: Frank intent: look location: workshop,navigate to entrance -> meet_person Frank at entrance -> navigate to workshop
+intent: look location: dining area filter: right arm person: person intent: say content: day,navigate to dining area -> detect_person with right arm at dining area -> greet_person
+intent: answer location: workshop filter: pointing content: question person: person,navigate to workshop -> detect_person with pose pointing at workshop -> navigate to operator -> answer_question
+intent: tell object: mugs location: on the side table attribute: lightest,navigate to on the side table -> detect_object lightest mugs at on the side table -> describe_property -> navigate to operator -> tell
+intent: meet location: bedroom person: Charlie intent: look location: storage room,navigate to bedroom -> meet_person Charlie at bedroom -> navigate to storage room
+intent: tell location: entrance content: pose person: person,navigate to entrance -> tell pose
+intent: give object: plate location: counter recipient: me,navigate to counter -> grasp -> navigate to counter -> deliver plate to me
+intent: introduce location: drinks bar filter: wearing person: yellow t shirt intent: say,navigate to drinks bar -> introduce_person -> greet_person
+intent: go location: balcony intent: meet person: Charlie intent: answer content: question,navigate to balcony -> meet_person Charlie -> navigate to operator -> answer_question
+intent: follow location: entrance filter: sitting person: person,navigate to entrance -> guide_person person to entrance
+intent: tell location: on the side table attribute: largest,navigate to on the side table -> detect_object largest at on the side table -> describe_property -> navigate to operator -> tell
+intent: tell object: remote location: on the counter,navigate to on the counter -> count remote at on the counter -> navigate to operator -> tell
+intent: lead location: garden table filter: wearing person: red blouse,navigate to garden table -> guide_person red blouse to garden table
+intent: bring object: pen location: counter recipient: me,navigate to counter -> grasp -> navigate to counter -> deliver pen to me
+intent: take location: workshop filter: sitting person: person,navigate to workshop -> grasp
+intent: answer location: garden filter: pointing content: question person: person,navigate to garden -> detect_person with pose pointing at garden -> navigate to operator -> answer_question
+intent: tell location: garage content: name person: person,navigate to garage -> tell name
+intent: tell object: glass location: on the desk,navigate to on the desk -> count glass at on the desk -> navigate to operator -> tell
+intent: go location: hallway intent: find filter: standing person: person intent: say content: your teams name,navigate to hallway -> detect_person with pose standing -> greet_person
+intent: give object: tray location: side table recipient: me,navigate to side table -> grasp -> navigate to side table -> deliver tray to me
+intent: tell object: toy location: on the counter,navigate to on the counter -> count toy at on the counter -> navigate to operator -> tell
+intent: salute location: balcony person: Charlie intent: follow location: drinks bar,navigate to balcony -> greet_person Charlie at balcony -> navigate to drinks bar -> guide_person to drinks bar
+intent: salute location: patio filter: wearing person: yellow blouse intent: escort location: bathroom,navigate to patio -> greet_person yellow blouse with wearing at patio -> navigate to bathroom -> guide_person to bathroom
+intent: look object: magazines location: bedroom intent: fetch intent: deliver location: bedroom filter: lying recipient: person,navigate to bedroom -> detect_object magazines at bedroom -> navigate to bedroom -> deliver magazines to person
+intent: tell object: plates location: on the shelf attribute: largest,navigate to on the shelf -> detect_object largest plates at on the shelf -> describe_property -> navigate to operator -> tell
+intent: give object: magazine location: shelf recipient: me,navigate to shelf -> grasp -> navigate to shelf -> deliver magazine to me
+intent: locate object: notebook location: bedroom intent: take intent: put location: on the counter,navigate to bedroom -> detect_object notebook at bedroom -> grasp -> navigate to on the counter -> place at on the counter
+intent: escort location: bedroom person: Alice,navigate to bedroom -> guide_person Alice to bedroom
+intent: tell location: storage room content: gesture person: person,navigate to storage room -> tell gesture
+intent: tell location: bedroom filter: waving,navigate to bedroom -> detect_person with pose waving at bedroom -> describe_property -> navigate to operator -> tell
+intent: say location: closet person: Sam intent: follow location: balcony,navigate to closet -> greet_person Sam at closet -> navigate to balcony -> guide_person to balcony
+intent: answer location: laundry room filter: pointing content: quiz person: person,navigate to laundry room -> detect_person with pose pointing at laundry room -> navigate to operator -> answer_question
+intent: introduce location: laundry room person: Frank intent: tell content: day,navigate to laundry room -> introduce_person -> tell day
+intent: say location: workshop filter: wearing person: gray blouse intent: lead location: office,navigate to workshop -> greet_person gray blouse with wearing at workshop -> navigate to office -> guide_person to office
+intent: bring object: cup location: shelf recipient: me,navigate to shelf -> grasp -> navigate to shelf -> deliver cup to me
+intent: tell location: bathroom filter: wearing person: blue coats,navigate to bathroom -> detect_person with wearing at bathroom -> describe_property -> navigate to operator -> tell
+intent: look object: snack location: workshop intent: take intent: place location: on the desk,navigate to workshop -> detect_object snack at workshop -> grasp -> navigate to on the desk -> place at on the desk
+intent: tell object: bottles location: on the shelf attribute: biggest,navigate to on the shelf -> detect_object biggest bottles at on the shelf -> describe_property -> navigate to operator -> tell
+intent: navigate location: counter intent: find filter: sitting person: person intent: follow location: storage room,navigate to counter -> detect_person with pose sitting -> navigate to storage room -> guide_person to storage room
+intent: answer location: garage filter: left arm content: question person: person,navigate to garage -> detect_person with left arm at garage -> navigate to operator -> answer_question
+intent: tell object: books location: on the garden table attribute: lightest,navigate to on the garden table -> detect_object lightest books at on the garden table -> describe_property -> navigate to operator -> tell
+intent: bring object: mug location: shelf recipient: me,navigate to shelf -> grasp -> navigate to shelf -> deliver mug to me
+intent: tell object: snack location: on the desk,navigate to on the desk -> count snack at on the desk -> navigate to operator -> tell
+intent: greet location: storage room filter: wearing person: yellow sweater intent: take location: kitchen,navigate to storage room -> greet_person yellow sweater with wearing at storage room -> navigate to kitchen -> grasp
+intent: tell object: snack location: on the desk,navigate to on the desk -> count snack at on the desk -> navigate to operator -> tell
+intent: tell location: on the side table attribute: smallest,navigate to on the side table -> detect_object smallest at on the side table -> describe_property -> navigate to operator -> tell
+intent: tell location: on the side table attribute: heaviest,navigate to on the side table -> detect_object heaviest at on the side table -> describe_property -> navigate to operator -> tell
+intent: tell object: snack location: on the garden table,navigate to on the garden table -> count snack at on the garden table -> navigate to operator -> tell
+intent: go location: garage intent: find object: phone intent: grasp intent: put location: on the counter,navigate to garage -> detect_object phone -> grasp -> navigate to on the counter -> place at on the counter
+intent: take object: pen location: shelf intent: deliver recipient: me,navigate to shelf -> grasp -> deliver pen to me
+intent: tell location: on the garden table attribute: thinnest,navigate to on the garden table -> detect_object thinnest at on the garden table -> describe_property -> navigate to operator -> tell
+intent: follow location: terrace person: Olivia,navigate to terrace -> guide_person Olivia to terrace
+intent: meet location: bedroom person: Sam intent: say content: day,navigate to bedroom -> meet_person Sam at bedroom -> greet_person
+intent: salute location: hallway person: Karen intent: say content: day,navigate to hallway -> greet_person Karen at hallway -> greet_person
+intent: tell object: remotes location: on the shelf attribute: largest,navigate to on the shelf -> detect_object largest remotes at on the shelf -> describe_property -> navigate to operator -> tell
+intent: tell object: can location: on the garden table,navigate to on the garden table -> count can at on the garden table -> navigate to operator -> tell
+intent: find object: magazine location: hallway intent: grasp intent: deliver location: hallway recipient: Tom,navigate to hallway -> detect_object magazine at hallway -> grasp -> navigate to hallway -> deliver magazine to Tom
+intent: take object: plates location: side table intent: bring location: storage room recipient: Jack,navigate to side table -> grasp -> navigate to storage room -> deliver plates to Jack
+intent: meet location: bedroom person: Grace intent: look location: living room,navigate to bedroom -> meet_person Grace at bedroom -> navigate to living room
+intent: give object: tablet location: garden table recipient: me,navigate to garden table -> grasp -> navigate to garden table -> deliver tablet to me
+intent: bring object: magazine location: desk recipient: me,navigate to desk -> grasp -> navigate to desk -> deliver magazine to me
+intent: answer location: kitchen filter: pointing content: quiz person: person,navigate to kitchen -> detect_person with pose pointing at kitchen -> navigate to operator -> answer_question
+intent: find location: garden filter: lying person: person intent: answer content: quiz,navigate to garden -> detect_person with pose lying at garden -> navigate to operator -> answer_question
+intent: tell location: laundry room filter: wearing person: gray blouses,navigate to laundry room -> detect_person with wearing at laundry room -> describe_property -> navigate to operator -> tell
+intent: tell location: living room content: name person: person,navigate to living room -> tell name
+intent: salute location: garage filter: wearing person: yellow shirt intent: answer content: quiz,navigate to garage -> greet_person yellow shirt with wearing at garage -> navigate to operator -> answer_question
+intent: navigate location: balcony intent: find object: box intent: grasp intent: give recipient: me,navigate to balcony -> detect_object box -> grasp -> deliver box to me
+intent: fetch object: remotes location: shelf intent: give recipient: me,navigate to shelf -> detect_object remotes at shelf -> deliver remotes to me
+intent: tell location: dining area content: pose person: person,navigate to dining area -> tell pose
+intent: fetch object: glass location: shelf intent: deliver recipient: me,navigate to shelf -> detect_object glass at shelf -> deliver glass to me
+intent: tell location: storage room filter: wearing person: yellow blouses,navigate to storage room -> detect_person with wearing at storage room -> describe_property -> navigate to operator -> tell
+intent: grasp object: notebook location: side table intent: deliver location: dining area recipient: Leo,navigate to side table -> grasp -> navigate to dining area -> deliver notebook to Leo
+intent: tell location: drinks bar filter: lying,navigate to drinks bar -> detect_person with pose lying at drinks bar -> describe_property -> navigate to operator -> tell
+intent: follow location: dining area filter: waving person: person,navigate to dining area -> guide_person person to dining area
+intent: find object: magazines location: kitchen intent: get intent: deliver location: kitchen recipient: Olivia,navigate to kitchen -> detect_object magazines at kitchen -> grasp -> navigate to kitchen -> deliver magazines to Olivia
+intent: lead location: garden filter: pointing person: person,navigate to garden -> guide_person person to garden
+intent: find location: office filter: waving person: person intent: follow,navigate to office -> detect_person with pose waving at office -> guide_person
+intent: tell object: mugs location: on the desk attribute: lightest,navigate to on the desk -> detect_object lightest mugs at on the desk -> describe_property -> navigate to operator -> tell
+intent: take location: dining area filter: wearing person: gray blouse,navigate to dining area -> grasp
+intent: look location: living room filter: waving person: person intent: escort location: study,navigate to living room -> detect_person with pose waving at living room -> navigate to study -> guide_person to study
+intent: tell location: entrance filter: wearing person: blue t shirts,navigate to entrance -> detect_person with wearing at entrance -> describe_property -> navigate to operator -> tell
+intent: bring object: mug location: side table recipient: me,navigate to side table -> grasp -> navigate to side table -> deliver mug to me
+intent: fetch object: snack location: counter intent: give recipient: me,navigate to counter -> detect_object snack at counter -> deliver snack to me
+intent: tell location: on the desk attribute: biggest,navigate to on the desk -> detect_object biggest at on the desk -> describe_property -> navigate to operator -> tell
+intent: go location: shelf intent: look object: bowl intent: grasp intent: place location: on the desk,navigate to shelf -> detect_object bowl -> grasp -> navigate to on the desk -> place at on the desk
+intent: introduce location: balcony filter: wearing person: white t shirt intent: tell content: day today,navigate to balcony -> introduce_person -> tell day today
+intent: find location: laundry room filter: sitting person: person intent: follow,navigate to laundry room -> detect_person with pose sitting at laundry room -> guide_person
+intent: tell location: balcony filter: wearing person: gray jackets,navigate to balcony -> detect_person with wearing at balcony -> describe_property -> navigate to operator -> tell
+intent: tell object: remotes location: on the shelf attribute: thinnest,navigate to on the shelf -> detect_object thinnest remotes at on the shelf -> describe_property -> navigate to operator -> tell
+intent: tell object: cans location: on the counter attribute: smallest,navigate to on the counter -> detect_object smallest cans at on the counter -> describe_property -> navigate to operator -> tell
+intent: say location: bedroom person: Sam intent: follow location: living room,navigate to bedroom -> greet_person Sam at bedroom -> navigate to living room -> guide_person to living room
+intent: locate object: plates location: drinks bar intent: get intent: give location: drinks bar filter: left arm recipient: person,navigate to drinks bar -> detect_object plates at drinks bar -> grasp -> navigate to drinks bar -> deliver plates to person
+intent: navigate location: bedroom intent: look object: plates intent: grasp intent: bring location: laundry room recipient: Maria,navigate to bedroom -> detect_object plates -> grasp -> navigate to laundry room -> deliver plates to Maria
+intent: tell location: patio filter: left arm content: yourself person: person,navigate to patio -> tell yourself
+intent: meet location: garage person: Ingrid intent: follow location: terrace,navigate to garage -> meet_person Ingrid at garage -> navigate to terrace -> guide_person to terrace
+intent: follow location: terrace person: Maria,navigate to terrace -> guide_person Maria to terrace
+intent: escort location: hallway filter: wearing person: gray shirt,navigate to hallway -> guide_person gray shirt to hallway
+intent: locate object: snacks location: office intent: fetch intent: place location: on the garden table,navigate to office -> detect_object snacks at office -> navigate to on the garden table -> place at on the garden table
+intent: navigate location: garden intent: meet person: Jack intent: follow,navigate to garden -> meet_person Jack -> guide_person
+intent: fetch object: mugs location: desk intent: give location: study recipient: Rosa,navigate to desk -> detect_object mugs at desk -> navigate to study -> deliver mugs to Rosa
+intent: follow location: dining area person: Tom,navigate to dining area -> guide_person Tom to dining area
+intent: introduce location: laundry room filter: wearing person: orange sweater intent: say content: time,navigate to laundry room -> introduce_person -> greet_person
+intent: tell location: laundry room filter: sitting,navigate to laundry room -> detect_person with pose sitting at laundry room -> describe_property -> navigate to operator -> tell
+intent: find location: office filter: waving person: person intent: tell content: yourself,navigate to office -> detect_person with pose waving at office -> tell yourself
+intent: go location: study intent: look filter: sitting person: person intent: tell content: your teams name,navigate to study -> detect_person with pose sitting -> tell your teams name
+intent: escort location: closet person: Grace,navigate to closet -> guide_person Grace to closet
+intent: follow location: entrance filter: lying person: person,navigate to entrance -> guide_person person to entrance
+intent: navigate location: workshop intent: meet person: Charlie intent: lead location: balcony,navigate to workshop -> meet_person Charlie -> navigate to balcony -> guide_person to balcony
+intent: find location: kitchen filter: sitting person: person intent: tell content: your teams name,navigate to kitchen -> detect_person with pose sitting at kitchen -> tell your teams name
+intent: grasp object: notebook location: counter intent: put location: on the garden table,navigate to counter -> grasp -> navigate to on the garden table -> place at on the garden table
+intent: escort location: desk person: Sam,navigate to desk -> guide_person Sam to desk
+intent: tell location: on the side table attribute: biggest,navigate to on the side table -> detect_object biggest at on the side table -> describe_property -> navigate to operator -> tell
+intent: give object: mug location: side table recipient: me,navigate to side table -> grasp -> navigate to side table -> deliver mug to me
+intent: introduce location: kitchen filter: wearing person: white t shirt intent: follow location: garden,navigate to kitchen -> introduce_person -> navigate to garden -> guide_person to garden
+intent: navigate location: living room intent: look object: bottle intent: take intent: put location: on the counter,navigate to living room -> detect_object bottle -> grasp -> navigate to on the counter -> place at on the counter
+intent: tell location: terrace filter: pointing,navigate to terrace -> detect_person with pose pointing at terrace -> describe_property -> navigate to operator -> tell
+intent: follow location: entrance person: Quentin,navigate to entrance -> guide_person Quentin to entrance
+intent: bring object: notebook location: side table recipient: me,navigate to side table -> grasp -> navigate to side table -> deliver notebook to me
+intent: introduce location: drinks bar person: Rosa intent: follow,navigate to drinks bar -> introduce_person -> guide_person
+intent: navigate location: drinks bar intent: look object: books intent: take intent: place location: on the shelf,navigate to drinks bar -> detect_object books -> grasp -> navigate to on the shelf -> place at on the shelf
+intent: navigate location: hallway intent: locate object: glasses intent: grasp intent: place location: on the shelf,navigate to hallway -> detect_object glasses -> grasp -> navigate to on the shelf -> place at on the shelf
+intent: tell object: plate location: on the counter,navigate to on the counter -> count plate at on the counter -> navigate to operator -> tell
+intent: tell location: closet filter: sitting,navigate to closet -> detect_person with pose sitting at closet -> describe_property -> navigate to operator -> tell
+intent: tell location: entrance content: pose person: person,navigate to entrance -> tell pose
+intent: tell location: drinks bar content: pose person: person,navigate to drinks bar -> tell pose
+intent: go location: office intent: look object: snacks intent: get intent: give recipient: me,navigate to office -> detect_object snacks -> grasp -> deliver snacks to me
+intent: take object: cans location: counter intent: deliver location: hallway recipient: Jack,navigate to counter -> grasp -> navigate to hallway -> deliver cans to Jack
+intent: tell object: mug location: on the shelf,navigate to on the shelf -> count mug at on the shelf -> navigate to operator -> tell
+intent: follow location: patio person: Hector,navigate to patio -> guide_person Hector to patio
+intent: go location: entrance intent: locate filter: standing person: person intent: follow location: office,navigate to entrance -> detect_person with pose standing -> navigate to office -> guide_person to office
+intent: give object: tray location: shelf recipient: me,navigate to shelf -> grasp -> navigate to shelf -> deliver tray to me
+intent: give object: book location: garden table recipient: me,navigate to garden table -> grasp -> navigate to garden table -> deliver book to me
+intent: meet location: drinks bar person: Ingrid intent: look location: garage,navigate to drinks bar -> meet_person Ingrid at drinks bar -> navigate to garage
+intent: tell location: kitchen filter: lying,navigate to kitchen -> detect_person with pose lying at kitchen -> describe_property -> navigate to operator -> tell
+intent: follow location: entrance person: Noah,navigate to entrance -> guide_person Noah to entrance
+intent: look location: office filter: lying person: person intent: say content: your teams country,navigate to office -> detect_person with pose lying at office -> greet_person
+intent: tell location: office filter: wearing person: yellow jackets,navigate to office -> detect_person with wearing at office -> describe_property -> navigate to operator -> tell
+intent: tell location: terrace filter: waving content: day today person: person,navigate to terrace -> tell day today
+intent: locate location: kitchen filter: left arm person: person intent: follow,navigate to kitchen -> detect_person with left arm at kitchen -> guide_person
+intent: go location: workshop intent: meet person: Quentin intent: lead location: garden,navigate to workshop -> meet_person Quentin -> navigate to garden -> guide_person to garden
+intent: bring object: phone location: garden table recipient: me,navigate to garden table -> grasp -> navigate to garden table -> deliver phone to me
+intent: escort location: living room filter: wearing person: orange t shirt,navigate to living room -> guide_person orange t shirt to living room
+intent: tell object: snacks location: on the shelf attribute: thinnest,navigate to on the shelf -> detect_object thinnest snacks at on the shelf -> describe_property -> navigate to operator -> tell
+intent: tell location: on the garden table attribute: thinnest,navigate to on the garden table -> detect_object thinnest at on the garden table -> describe_property -> navigate to operator -> tell
+intent: tell object: glass location: on the desk,navigate to on the desk -> count glass at on the desk -> navigate to operator -> tell
+intent: tell object: plate location: on the counter,navigate to on the counter -> count plate at on the counter -> navigate to operator -> tell
+intent: tell object: books location: on the side table attribute: smallest,navigate to on the side table -> detect_object smallest books at on the side table -> describe_property -> navigate to operator -> tell
+intent: tell location: on the garden table attribute: largest,navigate to on the garden table -> detect_object largest at on the garden table -> describe_property -> navigate to operator -> tell
+intent: take location: drinks bar filter: wearing person: gray blouse,navigate to drinks bar -> grasp
+intent: tell object: plates location: on the garden table attribute: heaviest,navigate to on the garden table -> detect_object heaviest plates at on the garden table -> describe_property -> navigate to operator -> tell
+intent: tell object: glass location: on the garden table,navigate to on the garden table -> count glass at on the garden table -> navigate to operator -> tell
+intent: lead location: hallway filter: wearing person: white coat,navigate to hallway -> guide_person white coat to hallway
+intent: tell object: toys location: on the garden table attribute: smallest,navigate to on the garden table -> detect_object smallest toys at on the garden table -> describe_property -> navigate to operator -> tell
+intent: escort location: closet filter: standing person: person,navigate to closet -> guide_person person to closet
+intent: guide location: hallway filter: sitting person: person,navigate to hallway -> guide_person person to hallway
+intent: take location: entrance filter: right arm person: person,navigate to entrance -> grasp
+intent: tell object: remotes location: on the side table attribute: smallest,navigate to on the side table -> detect_object smallest remotes at on the side table -> describe_property -> navigate to operator -> tell
+intent: tell location: on the side table attribute: biggest,navigate to on the side table -> detect_object biggest at on the side table -> describe_property -> navigate to operator -> tell
+intent: tell location: on the side table attribute: smallest,navigate to on the side table -> detect_object smallest at on the side table -> describe_property -> navigate to operator -> tell
+intent: give object: can location: counter recipient: me,navigate to counter -> grasp -> navigate to counter -> deliver can to me
+intent: tell location: bedroom content: gesture person: person,navigate to bedroom -> tell gesture
+intent: tell object: magazines location: on the desk attribute: thinnest,navigate to on the desk -> detect_object thinnest magazines at on the desk -> describe_property -> navigate to operator -> tell
+intent: meet location: bedroom person: Grace intent: find location: garage,navigate to bedroom -> meet_person Grace at bedroom -> navigate to garage
+intent: tell location: office filter: wearing person: black jackets,navigate to office -> detect_person with wearing at office -> describe_property -> navigate to operator -> tell
+intent: tell object: magazine location: on the garden table,navigate to on the garden table -> count magazine at on the garden table -> navigate to operator -> tell
+intent: guide location: laundry room filter: left arm person: person,navigate to laundry room -> guide_person person to laundry room
+intent: go location: laundry room intent: locate object: cup intent: get intent: deliver recipient: me,navigate to laundry room -> detect_object cup -> grasp -> deliver cup to me
+intent: tell object: mugs location: on the counter attribute: smallest,navigate to on the counter -> detect_object smallest mugs at on the counter -> describe_property -> navigate to operator -> tell
+intent: introduce location: garage filter: wearing person: white coat intent: answer content: quiz,navigate to garage -> introduce_person -> navigate to operator -> answer_question
+intent: answer location: hallway filter: right arm content: quiz person: person,navigate to hallway -> detect_person with right arm at hallway -> navigate to operator -> answer_question
+intent: go location: counter intent: locate filter: waving person: person intent: tell content: your teams country,navigate to counter -> detect_person with pose waving -> tell your teams country
+intent: bring object: bottle location: side table recipient: me,navigate to side table -> grasp -> navigate to side table -> deliver bottle to me
+intent: tell location: on the desk attribute: biggest,navigate to on the desk -> detect_object biggest at on the desk -> describe_property -> navigate to operator -> tell
+intent: grasp object: glasses location: shelf intent: give recipient: me,navigate to shelf -> grasp -> deliver glasses to me
+intent: tell location: garage filter: left arm,navigate to garage -> detect_person with left arm at garage -> describe_property -> navigate to operator -> tell
+intent: tell location: on the desk attribute: lightest,navigate to on the desk -> detect_object lightest at on the desk -> describe_property -> navigate to operator -> tell
+intent: locate object: snack location: bathroom intent: get intent: deliver location: bathroom recipient: Charlie,navigate to bathroom -> detect_object snack at bathroom -> grasp -> navigate to bathroom -> deliver snack to Charlie
+intent: tell location: kitchen filter: wearing person: blue shirts,navigate to kitchen -> detect_person with wearing at kitchen -> describe_property -> navigate to operator -> tell
+intent: meet location: laundry room person: Hector intent: follow location: garage,navigate to laundry room -> meet_person Hector at laundry room -> navigate to garage -> guide_person to garage
+intent: follow location: storage room person: Frank,navigate to storage room -> guide_person Frank to storage room
+intent: bring object: mug location: shelf recipient: me,navigate to shelf -> grasp -> navigate to shelf -> deliver mug to me
+intent: tell location: on the shelf attribute: smallest,navigate to on the shelf -> detect_object smallest at on the shelf -> describe_property -> navigate to operator -> tell
+intent: say location: study filter: pointing content: your teams country person: person,navigate to study -> greet_person person with pointing at study
+intent: greet location: garden filter: wearing person: orange jacket intent: follow,navigate to garden -> greet_person orange jacket with wearing at garden -> guide_person
+intent: escort location: living room filter: sitting person: person,navigate to living room -> guide_person person to living room
+intent: tell location: on the shelf attribute: largest,navigate to on the shelf -> detect_object largest at on the shelf -> describe_property -> navigate to operator -> tell
+intent: follow location: balcony person: Leo,navigate to balcony -> guide_person Leo to balcony
+intent: take object: toys location: shelf intent: place location: on the desk,navigate to shelf -> grasp -> navigate to on the desk -> place at on the desk
+intent: tell location: closet filter: right arm content: your teams country person: person,navigate to closet -> tell your teams country
+intent: guide location: garden filter: pointing person: person,navigate to garden -> guide_person person to garden
+intent: go location: dining area intent: find object: magazines intent: grasp intent: place location: on the side table,navigate to dining area -> detect_object magazines -> grasp -> navigate to on the side table -> place at on the side table
+intent: tell location: kitchen content: pose person: person,navigate to kitchen -> tell pose
+intent: tell object: remotes location: on the garden table attribute: heaviest,navigate to on the garden table -> detect_object heaviest remotes at on the garden table -> describe_property -> navigate to operator -> tell
+intent: tell location: closet content: pose person: person,navigate to closet -> tell pose
+intent: tell location: on the side table attribute: heaviest,navigate to on the side table -> detect_object heaviest at on the side table -> describe_property -> navigate to operator -> tell
+intent: tell object: can location: on the counter,navigate to on the counter -> count can at on the counter -> navigate to operator -> tell
+intent: tell object: books location: on the counter attribute: largest,navigate to on the counter -> detect_object largest books at on the counter -> describe_property -> navigate to operator -> tell
+intent: tell object: bottle location: on the desk,navigate to on the desk -> count bottle at on the desk -> navigate to operator -> tell
+intent: find object: plates location: garden intent: get intent: deliver location: garden filter: right arm recipient: person,navigate to garden -> detect_object plates at garden -> grasp -> navigate to garden -> deliver plates to person
+intent: guide location: side table filter: pointing person: person,navigate to side table -> guide_person person to side table
+intent: locate location: garden filter: right arm person: person intent: follow,navigate to garden -> detect_person with right arm at garden -> guide_person
+intent: salute location: workshop person: Alice intent: follow,navigate to workshop -> greet_person Alice at workshop -> guide_person
+intent: tell object: remotes location: on the counter attribute: heaviest,navigate to on the counter -> detect_object heaviest remotes at on the counter -> describe_property -> navigate to operator -> tell
+intent: lead location: garden filter: wearing person: red shirt,navigate to garden -> guide_person red shirt to garden
+intent: find object: bottles location: patio intent: take intent: deliver recipient: me,navigate to patio -> detect_object bottles at patio -> grasp -> deliver bottles to me
+intent: meet location: garden person: Rosa intent: tell content: day,navigate to garden -> meet_person Rosa at garden -> tell day
+intent: find object: tray location: balcony intent: get intent: deliver location: balcony filter: left arm recipient: person,navigate to balcony -> detect_object tray at balcony -> grasp -> navigate to balcony -> deliver tray to person
+intent: tell location: closet filter: lying,navigate to closet -> detect_person with pose lying at closet -> describe_property -> navigate to operator -> tell
+intent: give object: magazine location: counter recipient: me,navigate to counter -> grasp -> navigate to counter -> deliver magazine to me
+intent: tell location: on the desk attribute: heaviest,navigate to on the desk -> detect_object heaviest at on the desk -> describe_property -> navigate to operator -> tell
+intent: tell location: closet filter: wearing person: red shirts,navigate to closet -> detect_person with wearing at closet -> describe_property -> navigate to operator -> tell
+intent: tell location: patio content: name person: person,navigate to patio -> tell name
+intent: give object: tablet location: counter recipient: me,navigate to counter -> grasp -> navigate to counter -> deliver tablet to me
+intent: tell location: garage filter: wearing person: black blouses,navigate to garage -> detect_person with wearing at garage -> describe_property -> navigate to operator -> tell
+intent: take location: entrance filter: wearing person: red coat,navigate to entrance -> grasp
+intent: fetch object: plates location: shelf intent: put location: on the desk,navigate to shelf -> detect_object plates at shelf -> navigate to on the desk -> place at on the desk
+intent: tell location: on the counter attribute: largest,navigate to on the counter -> detect_object largest at on the counter -> describe_property -> navigate to operator -> tell
+intent: grasp object: plates location: counter intent: deliver location: terrace filter: lying recipient: person,navigate to counter -> grasp -> navigate to terrace -> deliver plates to person
+intent: go location: garage intent: meet person: Rosa intent: tell content: your teams country,navigate to garage -> meet_person Rosa -> tell your teams country
+intent: tell object: toys location: on the desk attribute: biggest,navigate to on the desk -> detect_object biggest toys at on the desk -> describe_property -> navigate to operator -> tell
+intent: locate object: cups location: office intent: get intent: bring location: office filter: pointing recipient: person,navigate to office -> detect_object cups at office -> grasp -> navigate to office -> deliver cups to person
+intent: lead location: office filter: wearing person: red jacket,navigate to office -> guide_person red jacket to office
+intent: tell location: study filter: standing,navigate to study -> detect_person with pose standing at study -> describe_property -> navigate to operator -> tell
+intent: introduce location: closet person: Leo intent: follow,navigate to closet -> introduce_person -> guide_person
+intent: take location: laundry room person: Jack,navigate to laundry room -> grasp
+intent: follow location: garage filter: sitting person: person,navigate to garage -> guide_person person to garage
+intent: give object: phone location: shelf recipient: me,navigate to shelf -> grasp -> navigate to shelf -> deliver phone to me
+intent: guide location: entrance person: Bob,navigate to entrance -> guide_person Bob to entrance
+intent: go location: side table intent: locate filter: waving person: person intent: say content: day,navigate to side table -> detect_person with pose waving -> greet_person
+intent: tell location: garden filter: sitting,navigate to garden -> detect_person with pose sitting at garden -> describe_property -> navigate to operator -> tell
+intent: tell location: on the counter attribute: thinnest,navigate to on the counter -> detect_object thinnest at on the counter -> describe_property -> navigate to operator -> tell
+intent: tell object: magazine location: on the garden table,navigate to on the garden table -> count magazine at on the garden table -> navigate to operator -> tell
+intent: tell location: balcony content: pose person: person,navigate to balcony -> tell pose
+intent: tell location: bathroom content: gesture person: person,navigate to bathroom -> tell gesture
+intent: say location: dining area person: Maria intent: answer content: quiz,navigate to dining area -> greet_person Maria at dining area -> navigate to operator -> answer_question
+intent: follow location: terrace person: Pablo,navigate to terrace -> guide_person Pablo to terrace
+intent: look location: dining area filter: lying person: person intent: answer content: quiz,navigate to dining area -> detect_person with pose lying at dining area -> navigate to operator -> answer_question
+intent: tell location: on the side table attribute: lightest,navigate to on the side table -> detect_object lightest at on the side table -> describe_property -> navigate to operator -> tell
+intent: find location: balcony filter: standing person: person intent: follow,navigate to balcony -> detect_person with pose standing at balcony -> guide_person
+intent: tell location: on the desk attribute: smallest,navigate to on the desk -> detect_object smallest at on the desk -> describe_property -> navigate to operator -> tell
+intent: greet location: kitchen filter: wearing person: black sweater intent: take location: bedroom,navigate to kitchen -> greet_person black sweater with wearing at kitchen -> navigate to bedroom -> grasp
+intent: tell object: can location: on the garden table,navigate to on the garden table -> count can at on the garden table -> navigate to operator -> tell
+intent: greet location: drinks bar person: Pablo intent: follow location: dining area,navigate to drinks bar -> greet_person Pablo at drinks bar -> navigate to dining area -> guide_person to dining area
+intent: tell object: mug location: on the shelf,navigate to on the shelf -> count mug at on the shelf -> navigate to operator -> tell
+intent: follow location: dining area person: Charlie,navigate to dining area -> guide_person Charlie to dining area
+intent: tell object: cup location: on the desk,navigate to on the desk -> count cup at on the desk -> navigate to operator -> tell
+intent: tell location: drinks bar filter: wearing person: black shirts,navigate to drinks bar -> detect_person with wearing at drinks bar -> describe_property -> navigate to operator -> tell
+intent: bring object: magazine location: garden table recipient: me,navigate to garden table -> grasp -> navigate to garden table -> deliver magazine to me
+intent: follow location: desk filter: lying person: person,navigate to desk -> guide_person person to desk
+intent: navigate location: terrace intent: look object: toys intent: take intent: put location: on the counter,navigate to terrace -> detect_object toys -> grasp -> navigate to on the counter -> place at on the counter
+intent: meet location: balcony person: Eva intent: answer content: quiz,navigate to balcony -> meet_person Eva at balcony -> navigate to operator -> answer_question
+intent: locate object: key location: bedroom intent: fetch intent: give location: bedroom recipient: Grace,navigate to bedroom -> detect_object key at bedroom -> navigate to bedroom -> deliver key to Grace
+intent: tell location: study content: name person: person,navigate to study -> tell name
+intent: tell object: book location: on the shelf,navigate to on the shelf -> count book at on the shelf -> navigate to operator -> tell
+intent: tell location: study filter: sitting,navigate to study -> detect_person with pose sitting at study -> describe_property -> navigate to operator -> tell
+intent: tell object: remote location: on the side table,navigate to on the side table -> count remote at on the side table -> navigate to operator -> tell
+intent: meet location: study person: Ingrid intent: answer content: quiz,navigate to study -> meet_person Ingrid at study -> navigate to operator -> answer_question
+intent: tell object: mug location: on the desk,navigate to on the desk -> count mug at on the desk -> navigate to operator -> tell
+intent: find location: dining area filter: pointing person: person intent: guide location: workshop,navigate to dining area -> detect_person with pose pointing at dining area -> navigate to workshop -> guide_person to workshop
+intent: give object: plate location: side table recipient: me,navigate to side table -> grasp -> navigate to side table -> deliver plate to me
+intent: take location: garage filter: wearing person: yellow coat,navigate to garage -> grasp
+intent: tell location: on the desk attribute: largest,navigate to on the desk -> detect_object largest at on the desk -> describe_property -> navigate to operator -> tell
+intent: tell location: study content: pose person: person,navigate to study -> tell pose
+intent: bring object: phone location: garden table recipient: me,navigate to garden table -> grasp -> navigate to garden table -> deliver phone to me
+intent: say location: terrace filter: waving content: day person: person,navigate to terrace -> greet_person person with waving at terrace
+intent: tell object: book location: on the counter,navigate to on the counter -> count book at on the counter -> navigate to operator -> tell
+intent: answer location: living room filter: left arm content: question person: person,navigate to living room -> detect_person with left arm at living room -> navigate to operator -> answer_question
+intent: look object: bowl location: laundry room intent: get intent: place location: on the desk,navigate to laundry room -> detect_object bowl at laundry room -> grasp -> navigate to on the desk -> place at on the desk
+intent: meet location: terrace person: Ingrid intent: locate location: patio,navigate to terrace -> meet_person Ingrid at terrace -> navigate to patio
+intent: tell object: cups location: on the shelf attribute: largest,navigate to on the shelf -> detect_object largest cups at on the shelf -> describe_property -> navigate to operator -> tell
+intent: lead location: workshop filter: wearing person: white shirt,navigate to workshop -> guide_person white shirt to workshop
+intent: look object: books location: living room intent: fetch intent: bring location: living room filter: waving recipient: person,navigate to living room -> detect_object books at living room -> navigate to living room -> deliver books to person
+intent: say location: garage filter: right arm content: yourself person: person,navigate to garage -> greet_person person with right arm at garage
+intent: fetch object: remotes location: desk intent: put location: on the shelf,navigate to desk -> detect_object remotes at desk -> navigate to on the shelf -> place at on the shelf
+intent: tell location: living room content: gesture person: person,navigate to living room -> tell gesture
+intent: navigate location: dining area intent: locate object: bottle intent: fetch intent: place location: on the shelf,navigate to dining area -> detect_object bottle -> navigate to on the shelf -> place at on the shelf
+intent: introduce location: terrace person: Alice intent: follow location: closet,navigate to terrace -> introduce_person -> navigate to closet -> guide_person to closet
+intent: find object: books location: hallway intent: take intent: give recipient: me,navigate to hallway -> detect_object books at hallway -> grasp -> deliver books to me
+intent: meet location: garden person: Eva intent: find location: garden,navigate to garden -> meet_person Eva at garden -> navigate to garden
+intent: tell location: on the shelf attribute: lightest,navigate to on the shelf -> detect_object lightest at on the shelf -> describe_property -> navigate to operator -> tell
+intent: follow location: hallway filter: left arm person: person,navigate to hallway -> guide_person person to hallway
+intent: tell object: magazine location: on the desk,navigate to on the desk -> count magazine at on the desk -> navigate to operator -> tell
+intent: meet location: office person: Frank intent: say content: day,navigate to office -> meet_person Frank at office -> greet_person
+intent: get object: bottle location: garden table intent: bring location: bathroom filter: sitting recipient: person,navigate to garden table -> grasp -> navigate to bathroom -> deliver bottle to person
+intent: introduce location: hallway person: Eva intent: follow,navigate to hallway -> introduce_person -> guide_person
+intent: tell location: on the shelf attribute: smallest,navigate to on the shelf -> detect_object smallest at on the shelf -> describe_property -> navigate to operator -> tell
+intent: meet location: laundry room person: Charlie intent: escort location: side table,navigate to laundry room -> meet_person Charlie at laundry room -> navigate to side table -> guide_person to side table
+intent: locate object: phone location: terrace intent: get intent: bring recipient: me,navigate to terrace -> detect_object phone at terrace -> grasp -> deliver phone to me
+intent: say location: bathroom filter: waving content: day person: person,navigate to bathroom -> greet_person person with waving at bathroom
+intent: tell location: on the side table attribute: biggest,navigate to on the side table -> detect_object biggest at on the side table -> describe_property -> navigate to operator -> tell
+intent: follow location: workshop person: Jack,navigate to workshop -> guide_person Jack to workshop
+intent: tell object: cans location: on the side table attribute: biggest,navigate to on the side table -> detect_object biggest cans at on the side table -> describe_property -> navigate to operator -> tell
+intent: tell location: side table content: pose person: person,navigate to side table -> tell pose
+intent: look object: phone location: bathroom intent: take intent: bring location: bathroom recipient: Pablo,navigate to bathroom -> detect_object phone at bathroom -> grasp -> navigate to bathroom -> deliver phone to Pablo
+intent: salute location: hallway person: Sam intent: follow,navigate to hallway -> greet_person Sam at hallway -> guide_person
+intent: look object: pen location: bedroom intent: grasp intent: bring location: bedroom filter: sitting recipient: person,navigate to bedroom -> detect_object pen at bedroom -> grasp -> navigate to bedroom -> deliver pen to person
+intent: greet location: drinks bar person: Jack intent: take location: study,navigate to drinks bar -> greet_person Jack at drinks bar -> navigate to study -> grasp
+intent: grasp object: bottle location: garden table intent: deliver recipient: me,navigate to garden table -> grasp -> deliver bottle to me
+intent: answer location: office filter: pointing content: question person: person,navigate to office -> detect_person with pose pointing at office -> navigate to operator -> answer_question
+intent: give object: tablet location: desk recipient: me,navigate to desk -> grasp -> navigate to desk -> deliver tablet to me
+intent: lead location: desk person: Diana,navigate to desk -> guide_person Diana to desk
+intent: bring object: snack location: side table recipient: me,navigate to side table -> grasp -> navigate to side table -> deliver snack to me
+intent: escort location: garage person: Karen,navigate to garage -> guide_person Karen to garage
+intent: tell location: on the desk attribute: lightest,navigate to on the desk -> detect_object lightest at on the desk -> describe_property -> navigate to operator -> tell
+intent: follow location: laundry room person: Grace,navigate to laundry room -> guide_person Grace to laundry room
+intent: tell object: cup location: on the shelf,navigate to on the shelf -> count cup at on the shelf -> navigate to operator -> tell
+intent: follow location: study filter: standing person: person,navigate to study -> guide_person person to study
+intent: go location: entrance intent: find object: notebook intent: get intent: deliver location: patio recipient: Alice,navigate to entrance -> detect_object notebook -> grasp -> navigate to patio -> deliver notebook to Alice
+intent: take location: drinks bar filter: waving person: person,navigate to drinks bar -> grasp
+intent: tell object: bottle location: on the garden table,navigate to on the garden table -> count bottle at on the garden table -> navigate to operator -> tell
+intent: tell location: bathroom content: pose person: person,navigate to bathroom -> tell pose
+intent: tell object: can location: on the garden table,navigate to on the garden table -> count can at on the garden table -> navigate to operator -> tell
+intent: tell location: office filter: left arm content: day today person: person,navigate to office -> tell day today
+intent: tell object: cups location: on the shelf attribute: heaviest,navigate to on the shelf -> detect_object heaviest cups at on the shelf -> describe_property -> navigate to operator -> tell
+intent: tell location: workshop filter: standing,navigate to workshop -> detect_person with pose standing at workshop -> describe_property -> navigate to operator -> tell
+intent: get object: notebook location: counter intent: put location: on the garden table,navigate to counter -> grasp -> navigate to on the garden table -> place at on the garden table
+intent: navigate location: hallway intent: meet person: Tom intent: follow location: drinks bar,navigate to hallway -> meet_person Tom -> navigate to drinks bar -> guide_person to drinks bar
+intent: tell location: on the garden table attribute: heaviest,navigate to on the garden table -> detect_object heaviest at on the garden table -> describe_property -> navigate to operator -> tell
+intent: locate location: hallway filter: standing person: person intent: follow location: storage room,navigate to hallway -> detect_person with pose standing at hallway -> navigate to storage room -> guide_person to storage room
+intent: tell object: glass location: on the side table,navigate to on the side table -> count glass at on the side table -> navigate to operator -> tell
+intent: lead location: terrace filter: wearing person: white coat,navigate to terrace -> guide_person white coat to terrace
+intent: grasp object: mug location: desk intent: put location: on the garden table,navigate to desk -> grasp -> navigate to on the garden table -> place at on the garden table
+intent: answer location: workshop filter: waving content: quiz person: person,navigate to workshop -> detect_person with pose waving at workshop -> navigate to operator -> answer_question
+intent: tell location: on the counter attribute: thinnest,navigate to on the counter -> detect_object thinnest at on the counter -> describe_property -> navigate to operator -> tell
+intent: meet location: terrace person: Pablo intent: answer content: quiz,navigate to terrace -> meet_person Pablo at terrace -> navigate to operator -> answer_question
+intent: go location: terrace intent: locate object: books intent: get intent: give location: balcony filter: standing recipient: person,navigate to terrace -> detect_object books -> grasp -> navigate to balcony -> deliver books to person
+intent: tell location: garden table content: pose person: person,navigate to garden table -> tell pose
+intent: look object: charger location: study intent: fetch intent: deliver location: study recipient: Pablo,navigate to study -> detect_object charger at study -> navigate to study -> deliver charger to Pablo
+intent: locate location: garden filter: left arm person: person intent: say content: day tomorrow,navigate to garden -> detect_person with left arm at garden -> greet_person
+intent: tell object: glass location: on the garden table,navigate to on the garden table -> count glass at on the garden table -> navigate to operator -> tell
+intent: tell location: garden filter: wearing person: gray shirts,navigate to garden -> detect_person with wearing at garden -> describe_property -> navigate to operator -> tell
+intent: bring object: phone location: side table recipient: me,navigate to side table -> grasp -> navigate to side table -> deliver phone to me
+intent: tell location: closet filter: left arm,navigate to closet -> detect_person with left arm at closet -> describe_property -> navigate to operator -> tell
+intent: go location: desk intent: find object: plate intent: take intent: give location: living room recipient: Bob,navigate to desk -> detect_object plate -> grasp -> navigate to living room -> deliver plate to Bob
+intent: answer location: dining area filter: pointing content: question person: person,navigate to dining area -> detect_person with pose pointing at dining area -> navigate to operator -> answer_question
+intent: tell location: on the desk attribute: biggest,navigate to on the desk -> detect_object biggest at on the desk -> describe_property -> navigate to operator -> tell
+intent: tell location: dining area filter: wearing person: white blouses,navigate to dining area -> detect_person with wearing at dining area -> describe_property -> navigate to operator -> tell
+intent: tell location: on the shelf attribute: thinnest,navigate to on the shelf -> detect_object thinnest at on the shelf -> describe_property -> navigate to operator -> tell
+intent: tell location: workshop filter: waving,navigate to workshop -> detect_person with pose waving at workshop -> describe_property -> navigate to operator -> tell
+intent: tell object: snack location: on the shelf,navigate to on the shelf -> count snack at on the shelf -> navigate to operator -> tell
+intent: say location: terrace person: Pablo intent: answer content: quiz,navigate to terrace -> greet_person Pablo at terrace -> navigate to operator -> answer_question
+intent: navigate location: entrance intent: find object: plates intent: fetch intent: place location: on the garden table,navigate to entrance -> detect_object plates -> navigate to on the garden table -> place at on the garden table
+intent: guide location: bathroom person: Karen,navigate to bathroom -> guide_person Karen to bathroom
+intent: locate object: books location: kitchen intent: get intent: deliver location: kitchen filter: lying recipient: person,navigate to kitchen -> detect_object books at kitchen -> grasp -> navigate to kitchen -> deliver books to person
+intent: navigate location: study intent: look filter: lying person: person intent: follow,navigate to study -> detect_person with pose lying -> guide_person
+intent: tell object: cup location: on the garden table,navigate to on the garden table -> count cup at on the garden table -> navigate to operator -> tell
+intent: tell location: entrance filter: wearing person: blue sweaters,navigate to entrance -> detect_person with wearing at entrance -> describe_property -> navigate to operator -> tell
+intent: look object: notebook location: study intent: grasp intent: give recipient: me,navigate to study -> detect_object notebook at study -> grasp -> deliver notebook to me
+intent: follow location: garage person: Jack,navigate to garage -> guide_person Jack to garage
+intent: tell location: on the garden table attribute: largest,navigate to on the garden table -> detect_object largest at on the garden table -> describe_property -> navigate to operator -> tell
+intent: meet location: side table person: Grace intent: look location: garden,navigate to side table -> meet_person Grace at side table -> navigate to garden
+intent: tell object: plate location: on the desk,navigate to on the desk -> count plate at on the desk -> navigate to operator -> tell
+intent: tell location: study filter: wearing person: white sweaters,navigate to study -> detect_person with wearing at study -> describe_property -> navigate to operator -> tell
+intent: tell object: glass location: on the garden table,navigate to on the garden table -> count glass at on the garden table -> navigate to operator -> tell
+intent: escort location: drinks bar filter: wearing person: orange sweater,navigate to drinks bar -> guide_person orange sweater to drinks bar
+intent: give object: key location: counter recipient: me,navigate to counter -> grasp -> navigate to counter -> deliver key to me
+intent: go location: office intent: locate filter: lying person: person intent: follow,navigate to office -> detect_person with pose lying -> guide_person
+intent: take object: glasses location: side table intent: bring location: office filter: waving recipient: person,navigate to side table -> grasp -> navigate to office -> deliver glasses to person
+intent: tell location: entrance filter: wearing person: blue blouses,navigate to entrance -> detect_person with wearing at entrance -> describe_property -> navigate to operator -> tell
+intent: navigate location: entrance intent: locate object: plate intent: grasp intent: bring location: closet filter: waving recipient: person,navigate to entrance -> detect_object plate -> grasp -> navigate to closet -> deliver plate to person
+intent: take location: office person: Alice,navigate to office -> grasp
+intent: get object: bottle location: desk intent: deliver location: kitchen recipient: Eva,navigate to desk -> grasp -> navigate to kitchen -> deliver bottle to Eva
+intent: tell location: closet content: gesture person: person,navigate to closet -> tell gesture
+intent: give object: snack location: side table recipient: me,navigate to side table -> grasp -> navigate to side table -> deliver snack to me
+intent: tell location: dining area filter: wearing person: red coats,navigate to dining area -> detect_person with wearing at dining area -> describe_property -> navigate to operator -> tell
+intent: tell object: can location: on the shelf,navigate to on the shelf -> count can at on the shelf -> navigate to operator -> tell
+intent: lead location: desk filter: wearing person: black blouse,navigate to desk -> guide_person black blouse to desk
+intent: give object: glass location: counter recipient: me,navigate to counter -> grasp -> navigate to counter -> deliver glass to me
+intent: tell location: kitchen filter: left arm,navigate to kitchen -> detect_person with left arm at kitchen -> describe_property -> navigate to operator -> tell
+intent: go location: living room intent: look object: cup intent: grasp intent: deliver location: drinks bar filter: sitting recipient: person,navigate to living room -> detect_object cup -> grasp -> navigate to drinks bar -> deliver cup to person
+intent: tell location: patio filter: wearing person: red coats,navigate to patio -> detect_person with wearing at patio -> describe_property -> navigate to operator -> tell
+intent: find object: magazines location: bedroom intent: get intent: put location: on the desk,navigate to bedroom -> detect_object magazines at bedroom -> grasp -> navigate to on the desk -> place at on the desk
+intent: go location: kitchen intent: look filter: lying person: person intent: answer content: question,navigate to kitchen -> detect_person with pose lying -> navigate to operator -> answer_question
+intent: navigate location: storage room intent: look object: bottles intent: fetch intent: place location: on the side table,navigate to storage room -> detect_object bottles -> navigate to on the side table -> place at on the side table
+intent: say location: laundry room person: Karen intent: escort location: drinks bar,navigate to laundry room -> greet_person Karen at laundry room -> navigate to drinks bar -> guide_person to drinks bar
+intent: fetch object: glasses location: desk intent: put location: on the shelf,navigate to desk -> detect_object glasses at desk -> navigate to on the shelf -> place at on the shelf
+intent: say location: drinks bar filter: left arm content: day person: person,navigate to drinks bar -> greet_person person with left arm at drinks bar
+intent: get object: magazine location: garden table intent: give location: hallway recipient: Eva,navigate to garden table -> grasp -> navigate to hallway -> deliver magazine to Eva
+intent: follow location: dining area filter: right arm person: person,navigate to dining area -> guide_person person to dining area
+intent: navigate location: garage intent: look object: books intent: grasp intent: deliver location: terrace recipient: Noah,navigate to garage -> detect_object books -> grasp -> navigate to terrace -> deliver books to Noah
+intent: lead location: office filter: standing person: person,navigate to office -> guide_person person to office
+intent: take object: glasses location: shelf intent: bring location: entrance filter: pointing recipient: person,navigate to shelf -> grasp -> navigate to entrance -> deliver glasses to person
+intent: meet location: terrace person: Grace intent: follow location: bedroom,navigate to terrace -> meet_person Grace at terrace -> navigate to bedroom -> guide_person to bedroom
+intent: tell object: toy location: on the counter,navigate to on the counter -> count toy at on the counter -> navigate to operator -> tell
+intent: meet location: closet person: Maria intent: look location: bathroom,navigate to closet -> meet_person Maria at closet -> navigate to bathroom
+intent: bring object: toy location: side table recipient: me,navigate to side table -> grasp -> navigate to side table -> deliver toy to me
+intent: lead location: closet filter: pointing person: person,navigate to closet -> guide_person person to closet
+intent: tell object: mugs location: on the counter attribute: lightest,navigate to on the counter -> detect_object lightest mugs at on the counter -> describe_property -> navigate to operator -> tell
+intent: take location: living room filter: left arm person: person,navigate to living room -> grasp
+intent: take object: mugs location: shelf intent: bring recipient: me,navigate to shelf -> grasp -> deliver mugs to me
+intent: meet location: bathroom person: Alice intent: locate location: garage,navigate to bathroom -> meet_person Alice at bathroom -> navigate to garage
+intent: tell object: bottles location: on the garden table attribute: largest,navigate to on the garden table -> detect_object largest bottles at on the garden table -> describe_property -> navigate to operator -> tell
+intent: locate location: closet filter: lying person: person intent: tell content: your teams country,navigate to closet -> detect_person with pose lying at closet -> tell your teams country
+intent: locate object: plate location: drinks bar intent: fetch intent: place location: on the desk,navigate to drinks bar -> detect_object plate at drinks bar -> navigate to on the desk -> place at on the desk
+intent: navigate location: office intent: meet person: Karen intent: answer content: quiz,navigate to office -> meet_person Karen -> navigate to operator -> answer_question
+intent: navigate location: desk intent: locate object: glasses intent: grasp intent: deliver location: dining area recipient: Diana,navigate to desk -> detect_object glasses -> grasp -> navigate to dining area -> deliver glasses to Diana
+intent: say location: living room filter: left arm content: day today person: person,navigate to living room -> greet_person person with left arm at living room
+intent: tell location: on the garden table attribute: biggest,navigate to on the garden table -> detect_object biggest at on the garden table -> describe_property -> navigate to operator -> tell
+intent: tell location: side table content: pose person: person,navigate to side table -> tell pose
+intent: tell object: toys location: on the counter attribute: lightest,navigate to on the counter -> detect_object lightest toys at on the counter -> describe_property -> navigate to operator -> tell
+intent: tell location: dining area content: gesture person: person,navigate to dining area -> tell gesture
+intent: tell object: plate location: on the side table,navigate to on the side table -> count plate at on the side table -> navigate to operator -> tell
+intent: tell location: counter content: gesture person: person,navigate to counter -> tell gesture
+intent: take object: cups location: shelf intent: put location: on the garden table,navigate to shelf -> grasp -> navigate to on the garden table -> place at on the garden table
+intent: escort location: counter filter: wearing person: white t shirt,navigate to counter -> guide_person white t shirt to counter
+intent: tell location: on the side table attribute: thinnest,navigate to on the side table -> detect_object thinnest at on the side table -> describe_property -> navigate to operator -> tell
+intent: look location: office filter: standing person: person intent: follow,navigate to office -> detect_person with pose standing at office -> guide_person
+intent: locate object: toys location: entrance intent: grasp intent: deliver recipient: me,navigate to entrance -> detect_object toys at entrance -> grasp -> deliver toys to me
+intent: introduce location: kitchen person: Diana intent: answer content: question,navigate to kitchen -> introduce_person -> navigate to operator -> answer_question
+intent: get object: plates location: desk intent: deliver recipient: me,navigate to desk -> grasp -> deliver plates to me
+intent: navigate location: study intent: look filter: standing person: person intent: escort location: office,navigate to study -> detect_person with pose standing -> navigate to office -> guide_person to office
+intent: go location: kitchen intent: find object: box intent: fetch intent: place location: on the side table,navigate to kitchen -> detect_object box -> navigate to on the side table -> place at on the side table
+intent: tell location: drinks bar filter: lying,navigate to drinks bar -> detect_person with pose lying at drinks bar -> describe_property -> navigate to operator -> tell
+intent: tell location: on the desk attribute: largest,navigate to on the desk -> detect_object largest at on the desk -> describe_property -> navigate to operator -> tell
+intent: take location: kitchen filter: left arm person: person,navigate to kitchen -> grasp
+intent: tell location: on the garden table attribute: largest,navigate to on the garden table -> detect_object largest at on the garden table -> describe_property -> navigate to operator -> tell
+intent: tell location: laundry room filter: wearing person: red coats,navigate to laundry room -> detect_person with wearing at laundry room -> describe_property -> navigate to operator -> tell
+intent: tell object: remote location: on the shelf,navigate to on the shelf -> count remote at on the shelf -> navigate to operator -> tell
+intent: navigate location: desk intent: find filter: waving person: person intent: follow,navigate to desk -> detect_person with pose waving -> guide_person
+intent: go location: patio intent: find object: cans intent: take intent: deliver recipient: me,navigate to patio -> detect_object cans -> grasp -> deliver cans to me
+intent: answer location: dining area filter: pointing content: quiz person: person,navigate to dining area -> detect_person with pose pointing at dining area -> navigate to operator -> answer_question
+intent: find object: cans location: storage room intent: take intent: put location: on the side table,navigate to storage room -> detect_object cans at storage room -> grasp -> navigate to on the side table -> place at on the side table
+intent: answer location: hallway filter: left arm content: quiz person: person,navigate to hallway -> detect_person with left arm at hallway -> navigate to operator -> answer_question
+intent: tell object: magazine location: on the side table,navigate to on the side table -> count magazine at on the side table -> navigate to operator -> tell
+intent: answer location: kitchen filter: waving content: question person: person,navigate to kitchen -> detect_person with pose waving at kitchen -> navigate to operator -> answer_question
+intent: tell object: remote location: on the side table,navigate to on the side table -> count remote at on the side table -> navigate to operator -> tell
+intent: tell location: laundry room filter: wearing person: blue blouses,navigate to laundry room -> detect_person with wearing at laundry room -> describe_property -> navigate to operator -> tell
+intent: tell location: on the counter attribute: thinnest,navigate to on the counter -> detect_object thinnest at on the counter -> describe_property -> navigate to operator -> tell
+intent: tell location: hallway content: gesture person: person,navigate to hallway -> tell gesture
+intent: tell object: snack location: on the desk,navigate to on the desk -> count snack at on the desk -> navigate to operator -> tell
+intent: take location: patio person: Alice,navigate to patio -> grasp
+intent: bring object: can location: garden table recipient: me,navigate to garden table -> grasp -> navigate to garden table -> deliver can to me
+intent: follow location: study filter: lying person: person,navigate to study -> guide_person person to study
+intent: bring object: phone location: counter recipient: me,navigate to counter -> grasp -> navigate to counter -> deliver phone to me
+intent: answer location: kitchen filter: pointing content: question person: person,navigate to kitchen -> detect_person with pose pointing at kitchen -> navigate to operator -> answer_question
+intent: tell object: magazines location: on the garden table attribute: largest,navigate to on the garden table -> detect_object largest magazines at on the garden table -> describe_property -> navigate to operator -> tell
+intent: follow location: bedroom person: Alice,navigate to bedroom -> guide_person Alice to bedroom
+intent: go location: terrace intent: look object: cans intent: get intent: deliver location: entrance filter: standing recipient: person,navigate to terrace -> detect_object cans -> grasp -> navigate to entrance -> deliver cans to person
+intent: tell location: side table content: pose person: person,navigate to side table -> tell pose
+intent: find object: magazine location: garage intent: fetch intent: bring location: garage filter: left arm recipient: person,navigate to garage -> detect_object magazine at garage -> navigate to garage -> deliver magazine to person
+intent: say location: dining area filter: pointing content: time person: person,navigate to dining area -> greet_person person with pointing at dining area
+intent: tell location: on the garden table attribute: heaviest,navigate to on the garden table -> detect_object heaviest at on the garden table -> describe_property -> navigate to operator -> tell
+intent: tell location: hallway filter: wearing person: blue shirts,navigate to hallway -> detect_person with wearing at hallway -> describe_property -> navigate to operator -> tell
+intent: navigate location: balcony intent: find object: cups intent: get intent: deliver location: patio filter: lying recipient: person,navigate to balcony -> detect_object cups -> grasp -> navigate to patio -> deliver cups to person
+intent: meet location: workshop person: Karen intent: locate location: garage,navigate to workshop -> meet_person Karen at workshop -> navigate to garage
+intent: navigate location: hallway intent: find object: snacks intent: get intent: put location: on the desk,navigate to hallway -> detect_object snacks -> grasp -> navigate to on the desk -> place at on the desk
+intent: tell location: kitchen content: name person: person,navigate to kitchen -> tell name
+intent: tell location: on the desk attribute: heaviest,navigate to on the desk -> detect_object heaviest at on the desk -> describe_property -> navigate to operator -> tell
+intent: tell location: patio content: name person: person,navigate to patio -> tell name
+intent: tell object: toy location: on the counter,navigate to on the counter -> count toy at on the counter -> navigate to operator -> tell
+intent: escort location: entrance filter: wearing person: black t shirt,navigate to entrance -> guide_person black t shirt to entrance
+intent: get object: books location: counter intent: deliver recipient: me,navigate to counter -> grasp -> deliver books to me
+intent: guide location: storage room person: Olivia,navigate to storage room -> guide_person Olivia to storage room
+intent: tell object: cup location: on the garden table,navigate to on the garden table -> count cup at on the garden table -> navigate to operator -> tell
+intent: guide location: side table filter: wearing person: red jacket,navigate to side table -> guide_person red jacket to side table
+intent: bring object: snack location: side table recipient: me,navigate to side table -> grasp -> navigate to side table -> deliver snack to me
+intent: escort location: side table person: Pablo,navigate to side table -> guide_person Pablo to side table
+intent: bring object: tablet location: garden table recipient: me,navigate to garden table -> grasp -> navigate to garden table -> deliver tablet to me
+intent: tell location: workshop content: gesture person: person,navigate to workshop -> tell gesture
+intent: locate object: toys location: study intent: get intent: give location: study recipient: Karen,navigate to study -> detect_object toys at study -> grasp -> navigate to study -> deliver toys to Karen
+intent: lead location: bedroom filter: sitting person: person,navigate to bedroom -> guide_person person to bedroom
+intent: go location: shelf intent: look object: bowl intent: take intent: put location: on the desk,navigate to shelf -> detect_object bowl -> grasp -> navigate to on the desk -> place at on the desk
+intent: tell location: study filter: wearing person: gray sweaters,navigate to study -> detect_person with wearing at study -> describe_property -> navigate to operator -> tell
+intent: bring object: pen location: desk recipient: me,navigate to desk -> grasp -> navigate to desk -> deliver pen to me
+intent: answer location: garage filter: pointing content: question person: person,navigate to garage -> detect_person with pose pointing at garage -> navigate to operator -> answer_question
+intent: give object: mug location: desk recipient: me,navigate to desk -> grasp -> navigate to desk -> deliver mug to me
+intent: follow location: dining area person: Sam,navigate to dining area -> guide_person Sam to dining area
+intent: get object: glasses location: counter intent: put location: on the desk,navigate to counter -> grasp -> navigate to on the desk -> place at on the desk
+intent: escort location: dining area filter: lying person: person,navigate to dining area -> guide_person person to dining area
+intent: tell object: plate location: on the garden table,navigate to on the garden table -> count plate at on the garden table -> navigate to operator -> tell
+intent: meet location: garden person: Tom intent: look location: office,navigate to garden -> meet_person Tom at garden -> navigate to office
+intent: give object: plate location: shelf recipient: me,navigate to shelf -> grasp -> navigate to shelf -> deliver plate to me
+intent: tell location: patio content: pose person: person,navigate to patio -> tell pose
+intent: find object: bottles location: workshop intent: get intent: deliver recipient: me,navigate to workshop -> detect_object bottles at workshop -> grasp -> deliver bottles to me
+intent: look location: garage filter: sitting person: person intent: answer content: question,navigate to garage -> detect_person with pose sitting at garage -> navigate to operator -> answer_question
+intent: find object: cups location: closet intent: fetch intent: bring recipient: me,navigate to closet -> detect_object cups at closet -> deliver cups to me
+intent: follow location: study person: Karen,navigate to study -> guide_person Karen to study
+intent: tell object: mugs location: on the counter attribute: lightest,navigate to on the counter -> detect_object lightest mugs at on the counter -> describe_property -> navigate to operator -> tell
+intent: guide location: kitchen filter: standing person: person,navigate to kitchen -> guide_person person to kitchen
+intent: tell object: cup location: on the shelf,navigate to on the shelf -> count cup at on the shelf -> navigate to operator -> tell
+intent: follow location: storage room person: Eva,navigate to storage room -> guide_person Eva to storage room
+intent: navigate location: bedroom intent: locate object: remotes intent: fetch intent: deliver location: garden recipient: Olivia,navigate to bedroom -> detect_object remotes -> navigate to garden -> deliver remotes to Olivia
+intent: go location: garage intent: meet person: Eva intent: tell content: time,navigate to garage -> meet_person Eva -> tell time
+intent: tell object: remote location: on the shelf,navigate to on the shelf -> count remote at on the shelf -> navigate to operator -> tell
+intent: take location: living room filter: wearing person: black jacket,navigate to living room -> grasp
+intent: tell object: glass location: on the side table,navigate to on the side table -> count glass at on the side table -> navigate to operator -> tell
+intent: meet location: bathroom person: Karen intent: say content: day,navigate to bathroom -> meet_person Karen at bathroom -> greet_person
+intent: go location: study intent: look object: glasses intent: grasp intent: deliver recipient: me,navigate to study -> detect_object glasses -> grasp -> deliver glasses to me
+intent: lead location: office filter: wearing person: orange t shirt,navigate to office -> guide_person orange t shirt to office
+intent: get object: toys location: desk intent: put location: on the garden table,navigate to desk -> grasp -> navigate to on the garden table -> place at on the garden table
+intent: locate location: garage filter: left arm person: person intent: tell content: day tomorrow,navigate to garage -> detect_person with left arm at garage -> tell day tomorrow
+intent: bring object: book location: counter recipient: me,navigate to counter -> grasp -> navigate to counter -> deliver book to me
+intent: tell location: study filter: wearing person: blue sweaters,navigate to study -> detect_person with wearing at study -> describe_property -> navigate to operator -> tell
+intent: tell location: on the counter attribute: thinnest,navigate to on the counter -> detect_object thinnest at on the counter -> describe_property -> navigate to operator -> tell
+intent: meet location: storage room person: Hector intent: answer content: question,navigate to storage room -> meet_person Hector at storage room -> navigate to operator -> answer_question
+intent: take object: magazines location: garden table intent: bring recipient: me,navigate to garden table -> grasp -> deliver magazines to me
+intent: introduce location: hallway filter: wearing person: white jacket intent: follow,navigate to hallway -> introduce_person -> guide_person
+intent: go location: bathroom intent: find object: toy intent: get intent: bring recipient: me,navigate to bathroom -> detect_object toy -> grasp -> deliver toy to me
+intent: salute location: balcony person: Tom intent: follow location: workshop,navigate to balcony -> greet_person Tom at balcony -> navigate to workshop -> guide_person to workshop
+intent: tell object: remote location: on the garden table,navigate to on the garden table -> count remote at on the garden table -> navigate to operator -> tell
+intent: answer location: office filter: right arm content: quiz person: person,navigate to office -> detect_person with right arm at office -> navigate to operator -> answer_question
+intent: tell location: on the counter attribute: smallest,navigate to on the counter -> detect_object smallest at on the counter -> describe_property -> navigate to operator -> tell
+intent: tell location: laundry room content: name person: person,navigate to laundry room -> tell name
+intent: fetch object: glasses location: desk intent: deliver location: dining area recipient: Rosa,navigate to desk -> detect_object glasses at desk -> navigate to dining area -> deliver glasses to Rosa
+intent: meet location: terrace person: Rosa intent: find location: bedroom,navigate to terrace -> meet_person Rosa at terrace -> navigate to bedroom
+intent: tell object: remote location: on the desk,navigate to on the desk -> count remote at on the desk -> navigate to operator -> tell
+intent: greet location: balcony person: Alice intent: say content: time,navigate to balcony -> greet_person Alice at balcony -> greet_person
+intent: tell object: snacks location: on the shelf attribute: thinnest,navigate to on the shelf -> detect_object thinnest snacks at on the shelf -> describe_property -> navigate to operator -> tell
+intent: escort location: garden person: Frank,navigate to garden -> guide_person Frank to garden
+intent: find object: toy location: terrace intent: get intent: give location: terrace recipient: Quentin,navigate to terrace -> detect_object toy at terrace -> grasp -> navigate to terrace -> deliver toy to Quentin
+intent: follow location: desk filter: right arm person: person,navigate to desk -> guide_person person to desk
+intent: give object: glass location: shelf recipient: me,navigate to shelf -> grasp -> navigate to shelf -> deliver glass to me
+intent: salute location: workshop person: Grace intent: answer content: quiz,navigate to workshop -> greet_person Grace at workshop -> navigate to operator -> answer_question
+intent: navigate location: workshop intent: locate object: cans intent: get intent: give recipient: me,navigate to workshop -> detect_object cans -> grasp -> deliver cans to me
+intent: tell location: garage content: gesture person: person,navigate to garage -> tell gesture
+intent: go location: side table intent: locate object: glass intent: fetch intent: bring location: garage recipient: Tom,navigate to side table -> detect_object glass -> navigate to garage -> deliver glass to Tom
+intent: meet location: garden table person: Rosa intent: look location: garage,navigate to garden table -> meet_person Rosa at garden table -> navigate to garage
+intent: go location: storage room intent: look object: bowl intent: get intent: deliver recipient: me,navigate to storage room -> detect_object bowl -> grasp -> deliver bowl to me
+intent: meet location: living room person: Tom intent: follow location: entrance,navigate to living room -> meet_person Tom at living room -> navigate to entrance -> guide_person to entrance
+intent: tell object: magazines location: on the counter attribute: biggest,navigate to on the counter -> detect_object biggest magazines at on the counter -> describe_property -> navigate to operator -> tell
+intent: tell location: garden filter: wearing person: yellow jackets,navigate to garden -> detect_person with wearing at garden -> describe_property -> navigate to operator -> tell
+intent: fetch object: plates location: garden table intent: give location: bedroom recipient: Eva,navigate to garden table -> detect_object plates at garden table -> navigate to bedroom -> deliver plates to Eva
+intent: lead location: terrace filter: wearing person: yellow t shirt,navigate to terrace -> guide_person yellow t shirt to terrace
+intent: tell object: bottles location: on the garden table attribute: heaviest,navigate to on the garden table -> detect_object heaviest bottles at on the garden table -> describe_property -> navigate to operator -> tell
+intent: meet location: terrace person: Leo intent: follow,navigate to terrace -> meet_person Leo at terrace -> guide_person
+intent: get object: bottles location: shelf intent: deliver location: bedroom filter: sitting recipient: person,navigate to shelf -> grasp -> navigate to bedroom -> deliver bottles to person
+intent: tell location: dining area content: gesture person: person,navigate to dining area -> tell gesture
+intent: locate object: cans location: office intent: grasp intent: bring recipient: me,navigate to office -> detect_object cans at office -> grasp -> deliver cans to me
+intent: meet location: bedroom person: Alice intent: find location: dining area,navigate to bedroom -> meet_person Alice at bedroom -> navigate to dining area
+intent: locate object: books location: drinks bar intent: grasp intent: bring location: drinks bar recipient: Jack,navigate to drinks bar -> detect_object books at drinks bar -> grasp -> navigate to drinks bar -> deliver books to Jack
+intent: take location: closet filter: right arm person: person,navigate to closet -> grasp
+intent: tell location: on the garden table attribute: heaviest,navigate to on the garden table -> detect_object heaviest at on the garden table -> describe_property -> navigate to operator -> tell
+intent: meet location: laundry room person: Quentin intent: follow,navigate to laundry room -> meet_person Quentin at laundry room -> guide_person
+intent: tell location: on the counter attribute: smallest,navigate to on the counter -> detect_object smallest at on the counter -> describe_property -> navigate to operator -> tell
+intent: meet location: workshop person: Eva intent: locate location: balcony,navigate to workshop -> meet_person Eva at workshop -> navigate to balcony
+intent: locate object: remotes location: balcony intent: get intent: give location: balcony filter: pointing recipient: person,navigate to balcony -> detect_object remotes at balcony -> grasp -> navigate to balcony -> deliver remotes to person
+intent: tell location: workshop filter: left arm content: your teams country person: person,navigate to workshop -> tell your teams country
+intent: give object: bottle location: garden table recipient: me,navigate to garden table -> grasp -> navigate to garden table -> deliver bottle to me
+intent: tell location: laundry room filter: wearing person: black jackets,navigate to laundry room -> detect_person with wearing at laundry room -> describe_property -> navigate to operator -> tell
+intent: grasp object: tablet location: shelf intent: put location: on the side table,navigate to shelf -> grasp -> navigate to on the side table -> place at on the side table
+intent: tell location: side table content: gesture person: person,navigate to side table -> tell gesture
+intent: take object: toys location: side table intent: put location: on the counter,navigate to side table -> grasp -> navigate to on the counter -> place at on the counter
+intent: tell location: entrance content: pose person: person,navigate to entrance -> tell pose
+intent: locate object: notebook location: workshop intent: fetch intent: put location: on the garden table,navigate to workshop -> detect_object notebook at workshop -> navigate to on the garden table -> place at on the garden table
+intent: guide location: office filter: left arm person: person,navigate to office -> guide_person person to office
+intent: tell location: on the counter attribute: biggest,navigate to on the counter -> detect_object biggest at on the counter -> describe_property -> navigate to operator -> tell
+intent: guide location: hallway filter: waving person: person,navigate to hallway -> guide_person person to hallway
+intent: find object: cup location: hallway intent: fetch intent: place location: on the shelf,navigate to hallway -> detect_object cup at hallway -> navigate to on the shelf -> place at on the shelf
+intent: say location: hallway person: Maria intent: tell content: day today,navigate to hallway -> greet_person Maria at hallway -> tell day today
+intent: tell object: cups location: on the shelf attribute: largest,navigate to on the shelf -> detect_object largest cups at on the shelf -> describe_property -> navigate to operator -> tell
+intent: tell location: entrance filter: wearing person: red shirts,navigate to entrance -> detect_person with wearing at entrance -> describe_property -> navigate to operator -> tell
+intent: take object: snack location: garden table intent: place location: on the shelf,navigate to garden table -> grasp -> navigate to on the shelf -> place at on the shelf
+intent: tell location: garden filter: wearing person: blue sweaters,navigate to garden -> detect_person with wearing at garden -> describe_property -> navigate to operator -> tell
+intent: get object: toys location: shelf intent: bring location: patio recipient: Noah,navigate to shelf -> grasp -> navigate to patio -> deliver toys to Noah
+intent: tell location: bathroom filter: wearing person: orange sweaters,navigate to bathroom -> detect_person with wearing at bathroom -> describe_property -> navigate to operator -> tell
+intent: tell object: books location: on the counter attribute: biggest,navigate to on the counter -> detect_object biggest books at on the counter -> describe_property -> navigate to operator -> tell
+intent: meet location: bathroom person: Rosa intent: follow location: garden,navigate to bathroom -> meet_person Rosa at bathroom -> navigate to garden -> guide_person to garden
+intent: get object: snack location: shelf intent: bring recipient: me,navigate to shelf -> grasp -> deliver snack to me
+intent: tell location: laundry room content: pose person: person,navigate to laundry room -> tell pose
+intent: give object: tablet location: shelf recipient: me,navigate to shelf -> grasp -> navigate to shelf -> deliver tablet to me
+intent: tell location: drinks bar filter: wearing person: black jackets,navigate to drinks bar -> detect_person with wearing at drinks bar -> describe_property -> navigate to operator -> tell
+intent: bring object: mug location: shelf recipient: me,navigate to shelf -> grasp -> navigate to shelf -> deliver mug to me
+intent: find location: patio filter: pointing person: person intent: answer content: quiz,navigate to patio -> detect_person with pose pointing at patio -> navigate to operator -> answer_question
+intent: find object: mugs location: living room intent: take intent: give location: living room filter: lying recipient: person,navigate to living room -> detect_object mugs at living room -> grasp -> navigate to living room -> deliver mugs to person
+intent: tell location: garden filter: wearing person: orange blouses,navigate to garden -> detect_person with wearing at garden -> describe_property -> navigate to operator -> tell
+intent: find object: box location: balcony intent: take intent: give location: balcony recipient: Bob,navigate to balcony -> detect_object box at balcony -> grasp -> navigate to balcony -> deliver box to Bob
+intent: tell location: desk content: name person: person,navigate to desk -> tell name
+intent: tell object: magazine location: on the counter,navigate to on the counter -> count magazine at on the counter -> navigate to operator -> tell
+intent: escort location: bedroom filter: wearing person: gray jacket,navigate to bedroom -> guide_person gray jacket to bedroom
+intent: tell location: on the garden table attribute: biggest,navigate to on the garden table -> detect_object biggest at on the garden table -> describe_property -> navigate to operator -> tell
+intent: escort location: living room person: Rosa,navigate to living room -> guide_person Rosa to living room
+intent: give object: mug location: garden table recipient: me,navigate to garden table -> grasp -> navigate to garden table -> deliver mug to me
+intent: follow location: living room filter: standing person: person,navigate to living room -> guide_person person to living room
+intent: tell object: snack location: on the counter,navigate to on the counter -> count snack at on the counter -> navigate to operator -> tell
+intent: take location: laundry room filter: wearing person: yellow coat,navigate to laundry room -> grasp
+intent: tell location: on the desk attribute: largest,navigate to on the desk -> detect_object largest at on the desk -> describe_property -> navigate to operator -> tell
+intent: say location: bedroom person: Rosa intent: follow,navigate to bedroom -> greet_person Rosa at bedroom -> guide_person
+intent: tell object: cups location: on the garden table attribute: largest,navigate to on the garden table -> detect_object largest cups at on the garden table -> describe_property -> navigate to operator -> tell
+intent: tell location: closet content: pose person: person,navigate to closet -> tell pose
+intent: tell object: snacks location: on the shelf attribute: smallest,navigate to on the shelf -> detect_object smallest snacks at on the shelf -> describe_property -> navigate to operator -> tell
+intent: take location: closet filter: wearing person: white blouse,navigate to closet -> grasp
+intent: tell object: book location: on the shelf,navigate to on the shelf -> count book at on the shelf -> navigate to operator -> tell
+intent: locate location: living room filter: pointing person: person intent: follow location: kitchen,navigate to living room -> detect_person with pose pointing at living room -> navigate to kitchen -> guide_person to kitchen
+intent: find object: cup location: laundry room intent: take intent: bring location: laundry room recipient: Karen,navigate to laundry room -> detect_object cup at laundry room -> grasp -> navigate to laundry room -> deliver cup to Karen
+intent: tell location: shelf content: pose person: person,navigate to shelf -> tell pose
+intent: tell object: snack location: on the desk,navigate to on the desk -> count snack at on the desk -> navigate to operator -> tell
+intent: navigate location: drinks bar intent: locate location: right filter: pointing person: person intent: take location: office,navigate to drinks bar -> navigate to right -> detect_person with pose pointing at right -> navigate to office -> grasp
+intent: go location: entrance intent: locate object: cans intent: grasp intent: deliver location: office recipient: Grace,navigate to entrance -> detect_object cans -> grasp -> navigate to office -> deliver cans to Grace
+intent: tell location: balcony content: pose person: person,navigate to balcony -> tell pose
+intent: tell object: remote location: on the counter,navigate to on the counter -> count remote at on the counter -> navigate to operator -> tell
+intent: tell location: study filter: wearing person: red coats,navigate to study -> detect_person with wearing at study -> describe_property -> navigate to operator -> tell
+intent: give object: bowl location: side table recipient: me,navigate to side table -> grasp -> navigate to side table -> deliver bowl to me
+intent: greet location: drinks bar person: Charlie intent: follow location: laundry room,navigate to drinks bar -> greet_person Charlie at drinks bar -> navigate to laundry room -> guide_person to laundry room
+intent: tell location: on the side table attribute: largest,navigate to on the side table -> detect_object largest at on the side table -> describe_property -> navigate to operator -> tell
+intent: meet location: balcony person: Leo intent: lead location: bedroom,navigate to balcony -> meet_person Leo at balcony -> navigate to bedroom -> guide_person to bedroom
+intent: tell object: cups location: on the desk attribute: smallest,navigate to on the desk -> detect_object smallest cups at on the desk -> describe_property -> navigate to operator -> tell
+intent: look location: garage filter: pointing person: person intent: lead location: laundry room,navigate to garage -> detect_person with pose pointing at garage -> navigate to laundry room -> guide_person to laundry room
+intent: find object: remotes location: office intent: get intent: deliver location: office filter: lying recipient: person,navigate to office -> detect_object remotes at office -> grasp -> navigate to office -> deliver remotes to person
+intent: tell location: kitchen filter: right arm content: day person: person,navigate to kitchen -> tell day
+intent: tell object: glasses location: on the shelf attribute: smallest,navigate to on the shelf -> detect_object smallest glasses at on the shelf -> describe_property -> navigate to operator -> tell
+intent: follow location: workshop person: Diana,navigate to workshop -> guide_person Diana to workshop
+intent: tell object: toy location: on the shelf,navigate to on the shelf -> count toy at on the shelf -> navigate to operator -> tell
+intent: tell location: garage content: gesture person: person,navigate to garage -> tell gesture
+intent: navigate location: garden intent: look object: snacks intent: take intent: deliver location: office recipient: Leo,navigate to garden -> detect_object snacks -> grasp -> navigate to office -> deliver snacks to Leo
+intent: locate location: living room filter: waving person: person intent: say content: day today,navigate to living room -> detect_person with pose waving at living room -> greet_person
+intent: bring object: notebook location: garden table recipient: me,navigate to garden table -> grasp -> navigate to garden table -> deliver notebook to me
+intent: tell location: terrace content: name person: person,navigate to terrace -> tell name
+intent: take object: plate location: desk intent: bring location: office recipient: Sam,navigate to desk -> grasp -> navigate to office -> deliver plate to Sam
+intent: meet location: closet person: Noah intent: tell content: day,navigate to closet -> meet_person Noah at closet -> tell day
+intent: fetch object: charger location: desk intent: bring location: storage room recipient: Karen,navigate to desk -> detect_object charger at desk -> navigate to storage room -> deliver charger to Karen
+intent: tell location: terrace content: gesture person: person,navigate to terrace -> tell gesture
+intent: tell object: bottles location: on the side table attribute: thinnest,navigate to on the side table -> detect_object thinnest bottles at on the side table -> describe_property -> navigate to operator -> tell
+intent: tell location: office filter: waving content: time person: person,navigate to office -> tell time
+intent: locate object: plates location: dining area intent: fetch intent: bring recipient: me,navigate to dining area -> detect_object plates at dining area -> deliver plates to me
+intent: follow location: garden filter: sitting person: person,navigate to garden -> guide_person person to garden
+intent: navigate location: patio intent: look object: snack intent: take intent: deliver location: study filter: sitting recipient: person,navigate to patio -> detect_object snack -> grasp -> navigate to study -> deliver snack to person
+intent: navigate location: study intent: meet person: Diana intent: answer content: quiz,navigate to study -> meet_person Diana -> navigate to operator -> answer_question
+intent: give object: tray location: garden table recipient: me,navigate to garden table -> grasp -> navigate to garden table -> deliver tray to me
+intent: go location: storage room intent: meet person: Frank intent: tell content: day,navigate to storage room -> meet_person Frank -> tell day
+intent: go location: garden intent: look object: toys intent: fetch intent: put location: on the side table,navigate to garden -> detect_object toys -> navigate to on the side table -> place at on the side table
+intent: tell location: laundry room filter: pointing content: day tomorrow person: person,navigate to laundry room -> tell day tomorrow
+intent: tell object: toy location: on the side table,navigate to on the side table -> count toy at on the side table -> navigate to operator -> tell
+intent: locate location: dining area filter: right arm person: person intent: tell content: yourself,navigate to dining area -> detect_person with right arm at dining area -> tell yourself
+intent: tell object: snacks location: on the desk attribute: smallest,navigate to on the desk -> detect_object smallest snacks at on the desk -> describe_property -> navigate to operator -> tell
+intent: greet location: drinks bar filter: wearing person: yellow t shirt intent: tell content: your teams name,navigate to drinks bar -> greet_person yellow t shirt with wearing at drinks bar -> tell your teams name
+intent: tell location: on the side table attribute: thinnest,navigate to on the side table -> detect_object thinnest at on the side table -> describe_property -> navigate to operator -> tell
+intent: answer location: office filter: right arm content: question person: person,navigate to office -> detect_person with right arm at office -> navigate to operator -> answer_question
+intent: find object: books location: patio intent: get intent: deliver recipient: me,navigate to patio -> detect_object books at patio -> grasp -> deliver books to me
+intent: meet location: garden person: Alice intent: find location: balcony,navigate to garden -> meet_person Alice at garden -> navigate to balcony
+intent: tell object: toys location: on the side table attribute: thinnest,navigate to on the side table -> detect_object thinnest toys at on the side table -> describe_property -> navigate to operator -> tell
+intent: salute location: balcony filter: wearing person: gray sweater intent: answer content: quiz,navigate to balcony -> greet_person gray sweater with wearing at balcony -> navigate to operator -> answer_question
+intent: tell object: toys location: on the garden table attribute: heaviest,navigate to on the garden table -> detect_object heaviest toys at on the garden table -> describe_property -> navigate to operator -> tell
+intent: look location: bathroom filter: right arm person: person intent: follow,navigate to bathroom -> detect_person with right arm at bathroom -> guide_person
+intent: look object: bottles location: patio intent: grasp intent: place location: on the garden table,navigate to patio -> detect_object bottles at patio -> grasp -> navigate to on the garden table -> place at on the garden table
+intent: introduce location: garden person: Frank intent: answer content: question,navigate to garden -> introduce_person -> navigate to operator -> answer_question
+intent: give object: can location: side table recipient: me,navigate to side table -> grasp -> navigate to side table -> deliver can to me
+intent: lead location: patio person: Jack,navigate to patio -> guide_person Jack to patio
+intent: tell location: on the side table attribute: biggest,navigate to on the side table -> detect_object biggest at on the side table -> describe_property -> navigate to operator -> tell
+intent: tell location: living room filter: wearing person: orange coats,navigate to living room -> detect_person with wearing at living room -> describe_property -> navigate to operator -> tell
+intent: tell object: cup location: on the counter,navigate to on the counter -> count cup at on the counter -> navigate to operator -> tell
+intent: go location: laundry room intent: find filter: standing person: person intent: answer content: quiz,navigate to laundry room -> detect_person with pose standing -> navigate to operator -> answer_question
+intent: tell object: mugs location: on the garden table attribute: thinnest,navigate to on the garden table -> detect_object thinnest mugs at on the garden table -> describe_property -> navigate to operator -> tell
+intent: tell location: patio filter: left arm content: your teams name person: person,navigate to patio -> tell your teams name
+intent: grasp object: snack location: side table intent: give location: study recipient: Noah,navigate to side table -> grasp -> navigate to study -> deliver snack to Noah
+intent: meet location: bathroom person: Leo intent: follow location: patio,navigate to bathroom -> meet_person Leo at bathroom -> navigate to patio -> guide_person to patio
+intent: tell object: books location: on the shelf attribute: lightest,navigate to on the shelf -> detect_object lightest books at on the shelf -> describe_property -> navigate to operator -> tell
+intent: tell location: terrace filter: waving content: your teams name person: person,navigate to terrace -> tell your teams name
+intent: tell location: on the garden table attribute: lightest,navigate to on the garden table -> detect_object lightest at on the garden table -> describe_property -> navigate to operator -> tell
+intent: introduce location: bathroom person: Tom intent: follow location: desk,navigate to bathroom -> introduce_person -> navigate to desk -> guide_person to desk
+intent: tell object: bottle location: on the shelf,navigate to on the shelf -> count bottle at on the shelf -> navigate to operator -> tell
+intent: meet location: kitchen person: Grace intent: answer content: question,navigate to kitchen -> meet_person Grace at kitchen -> navigate to operator -> answer_question
+intent: navigate location: workshop intent: look object: tablet intent: grasp intent: place location: on the shelf,navigate to workshop -> detect_object tablet -> grasp -> navigate to on the shelf -> place at on the shelf
+intent: answer location: dining area filter: right arm content: question person: person,navigate to dining area -> detect_person with right arm at dining area -> navigate to operator -> answer_question
+intent: get object: bottle location: shelf intent: deliver location: bedroom filter: standing recipient: person,navigate to shelf -> grasp -> navigate to bedroom -> deliver bottle to person
+intent: follow location: dining area person: Olivia,navigate to dining area -> guide_person Olivia to dining area
+intent: navigate location: balcony intent: find object: glasses intent: get intent: put location: on the shelf,navigate to balcony -> detect_object glasses -> grasp -> navigate to on the shelf -> place at on the shelf
+intent: tell location: shelf content: gesture person: person,navigate to shelf -> tell gesture
+intent: get object: toys location: garden table intent: deliver location: storage room filter: lying recipient: person,navigate to garden table -> grasp -> navigate to storage room -> deliver toys to person
+intent: answer location: study filter: pointing content: question person: person,navigate to study -> detect_person with pose pointing at study -> navigate to operator -> answer_question
+intent: locate object: snack location: living room intent: grasp intent: deliver recipient: me,navigate to living room -> detect_object snack at living room -> grasp -> deliver snack to me
+intent: tell location: garden filter: pointing,navigate to garden -> detect_person with pose pointing at garden -> describe_property -> navigate to operator -> tell
+intent: tell object: snacks location: on the desk attribute: thinnest,navigate to on the desk -> detect_object thinnest snacks at on the desk -> describe_property -> navigate to operator -> tell
+intent: salute location: bedroom person: Charlie intent: follow,navigate to bedroom -> greet_person Charlie at bedroom -> guide_person
+intent: tell object: cups location: on the counter attribute: biggest,navigate to on the counter -> detect_object biggest cups at on the counter -> describe_property -> navigate to operator -> tell
+intent: escort location: laundry room person: Rosa,navigate to laundry room -> guide_person Rosa to laundry room
+intent: give object: cup location: desk recipient: me,navigate to desk -> grasp -> navigate to desk -> deliver cup to me
+intent: tell location: closet content: name person: person,navigate to closet -> tell name
+intent: give object: mug location: side table recipient: me,navigate to side table -> grasp -> navigate to side table -> deliver mug to me
+intent: follow location: bedroom person: Hector,navigate to bedroom -> guide_person Hector to bedroom
+intent: go location: office intent: locate object: tablet intent: grasp intent: give location: terrace filter: lying recipient: person,navigate to office -> detect_object tablet -> grasp -> navigate to terrace -> deliver tablet to person
+intent: tell location: office filter: wearing person: orange blouses,navigate to office -> detect_person with wearing at office -> describe_property -> navigate to operator -> tell
+intent: tell location: on the counter attribute: heaviest,navigate to on the counter -> detect_object heaviest at on the counter -> describe_property -> navigate to operator -> tell
+intent: tell location: bathroom filter: wearing person: black t shirts,navigate to bathroom -> detect_person with wearing at bathroom -> describe_property -> navigate to operator -> tell
+intent: tell location: on the counter attribute: lightest,navigate to on the counter -> detect_object lightest at on the counter -> describe_property -> navigate to operator -> tell
+intent: tell location: closet filter: pointing content: day person: person,navigate to closet -> tell day
+intent: give object: pen location: garden table recipient: me,navigate to garden table -> grasp -> navigate to garden table -> deliver pen to me
+intent: tell location: laundry room filter: wearing person: black blouses,navigate to laundry room -> detect_person with wearing at laundry room -> describe_property -> navigate to operator -> tell
+intent: go location: balcony intent: locate object: book intent: grasp intent: bring location: living room recipient: Rosa,navigate to balcony -> detect_object book -> grasp -> navigate to living room -> deliver book to Rosa
+intent: tell location: terrace content: name person: person,navigate to terrace -> tell name
+intent: get object: snack location: counter intent: deliver location: bathroom recipient: Frank,navigate to counter -> grasp -> navigate to bathroom -> deliver snack to Frank
+intent: look location: garden filter: pointing person: person intent: follow location: living room,navigate to garden -> detect_person with pose pointing at garden -> navigate to living room -> guide_person to living room
+intent: tell object: plate location: on the counter,navigate to on the counter -> count plate at on the counter -> navigate to operator -> tell
+intent: meet location: living room person: Rosa intent: lead location: balcony,navigate to living room -> meet_person Rosa at living room -> navigate to balcony -> guide_person to balcony
+intent: go location: workshop intent: look object: tablet intent: take intent: bring location: laundry room filter: pointing recipient: person,navigate to workshop -> detect_object tablet -> grasp -> navigate to laundry room -> deliver tablet to person
+intent: guide location: garage person: Eva,navigate to garage -> guide_person Eva to garage
+intent: take object: glass location: shelf intent: give location: terrace recipient: Grace,navigate to shelf -> grasp -> navigate to terrace -> deliver glass to Grace
+intent: tell location: office filter: wearing person: white jackets,navigate to office -> detect_person with wearing at office -> describe_property -> navigate to operator -> tell
+intent: find object: magazine location: patio intent: grasp intent: put location: on the side table,navigate to patio -> detect_object magazine at patio -> grasp -> navigate to on the side table -> place at on the side table
+intent: follow location: garage person: Pablo,navigate to garage -> guide_person Pablo to garage
+intent: go location: patio intent: look object: glasses intent: take intent: put location: on the side table,navigate to patio -> detect_object glasses -> grasp -> navigate to on the side table -> place at on the side table
+intent: escort location: laundry room filter: sitting person: person,navigate to laundry room -> guide_person person to laundry room
+intent: navigate location: bathroom intent: look object: magazine intent: fetch intent: give location: balcony filter: waving recipient: person,navigate to bathroom -> detect_object magazine -> navigate to balcony -> deliver magazine to person
+intent: look location: closet filter: sitting person: person intent: escort location: entrance,navigate to closet -> detect_person with pose sitting at closet -> navigate to entrance -> guide_person to entrance
+intent: tell object: cans location: on the counter attribute: heaviest,navigate to on the counter -> detect_object heaviest cans at on the counter -> describe_property -> navigate to operator -> tell
+intent: look location: hallway filter: left arm person: person intent: answer content: quiz,navigate to hallway -> detect_person with left arm at hallway -> navigate to operator -> answer_question
+intent: tell location: on the counter attribute: heaviest,navigate to on the counter -> detect_object heaviest at on the counter -> describe_property -> navigate to operator -> tell
+intent: tell location: bathroom content: name person: person,navigate to bathroom -> tell name
+intent: give object: charger location: garden table recipient: me,navigate to garden table -> grasp -> navigate to garden table -> deliver charger to me
+intent: guide location: shelf person: Bob,navigate to shelf -> guide_person Bob to shelf
+intent: tell object: toys location: on the shelf attribute: heaviest,navigate to on the shelf -> detect_object heaviest toys at on the shelf -> describe_property -> navigate to operator -> tell
+intent: tell location: patio filter: wearing person: white shirts,navigate to patio -> detect_person with wearing at patio -> describe_property -> navigate to operator -> tell
+intent: bring object: snack location: side table recipient: me,navigate to side table -> grasp -> navigate to side table -> deliver snack to me
+intent: answer location: storage room filter: waving content: question person: person,navigate to storage room -> detect_person with pose waving at storage room -> navigate to operator -> answer_question
+intent: go location: office intent: find object: plates intent: take intent: put location: on the desk,navigate to office -> detect_object plates -> grasp -> navigate to on the desk -> place at on the desk
+intent: follow location: office person: Alice,navigate to office -> guide_person Alice to office
+intent: tell object: snacks location: on the garden table attribute: biggest,navigate to on the garden table -> detect_object biggest snacks at on the garden table -> describe_property -> navigate to operator -> tell
+intent: meet location: terrace person: Quentin intent: find location: entrance,navigate to terrace -> meet_person Quentin at terrace -> navigate to entrance
+intent: give object: pen location: desk recipient: me,navigate to desk -> grasp -> navigate to desk -> deliver pen to me
+intent: navigate location: kitchen intent: look filter: left arm person: person intent: tell content: your teams name,navigate to kitchen -> detect_person with left arm -> tell your teams name
+intent: grasp object: phone location: side table intent: bring location: dining area recipient: Eva,navigate to side table -> grasp -> navigate to dining area -> deliver phone to Eva
+intent: follow location: study filter: right arm person: person,navigate to study -> guide_person person to study
+intent: bring object: tray location: side table recipient: me,navigate to side table -> grasp -> navigate to side table -> deliver tray to me
+intent: meet location: workshop person: Pablo intent: follow,navigate to workshop -> meet_person Pablo at workshop -> guide_person
+intent: navigate location: study intent: look object: pen intent: fetch intent: place location: on the garden table,navigate to study -> detect_object pen -> navigate to on the garden table -> place at on the garden table
+intent: meet location: patio person: Maria intent: find location: bedroom,navigate to patio -> meet_person Maria at patio -> navigate to bedroom
+intent: take object: remotes location: counter intent: put location: on the desk,navigate to counter -> grasp -> navigate to on the desk -> place at on the desk
+intent: tell location: kitchen filter: left arm content: day person: person,navigate to kitchen -> tell day
+intent: find object: cups location: bedroom intent: grasp intent: deliver recipient: me,navigate to bedroom -> detect_object cups at bedroom -> grasp -> deliver cups to me
+intent: escort location: garage filter: wearing person: gray t shirt,navigate to garage -> guide_person gray t shirt to garage
+intent: tell location: on the side table attribute: largest,navigate to on the side table -> detect_object largest at on the side table -> describe_property -> navigate to operator -> tell
+intent: meet location: patio person: Quentin intent: tell content: yourself,navigate to patio -> meet_person Quentin at patio -> tell yourself
+intent: tell object: plate location: on the desk,navigate to on the desk -> count plate at on the desk -> navigate to operator -> tell
+intent: tell location: garden table content: gesture person: person,navigate to garden table -> tell gesture
+intent: look object: magazines location: workshop intent: fetch intent: give location: workshop recipient: Frank,navigate to workshop -> detect_object magazines at workshop -> navigate to workshop -> deliver magazines to Frank
+intent: introduce location: dining area person: Ingrid intent: answer content: question,navigate to dining area -> introduce_person -> navigate to operator -> answer_question
+intent: take object: notebook location: desk intent: deliver location: terrace filter: pointing recipient: person,navigate to desk -> grasp -> navigate to terrace -> deliver notebook to person
+intent: look location: dining area filter: sitting person: person intent: answer content: question,navigate to dining area -> detect_person with pose sitting at dining area -> navigate to operator -> answer_question
+intent: navigate location: side table intent: look object: snacks intent: grasp intent: bring location: drinks bar filter: right arm recipient: person,navigate to side table -> detect_object snacks -> grasp -> navigate to drinks bar -> deliver snacks to person
+intent: greet location: office person: Grace intent: answer content: quiz,navigate to office -> greet_person Grace at office -> navigate to operator -> answer_question
+intent: bring object: tray location: desk recipient: me,navigate to desk -> grasp -> navigate to desk -> deliver tray to me
+intent: follow location: laundry room filter: right arm person: person,navigate to laundry room -> guide_person person to laundry room
+intent: tell object: magazines location: on the desk attribute: smallest,navigate to on the desk -> detect_object smallest magazines at on the desk -> describe_property -> navigate to operator -> tell
+intent: tell location: patio filter: wearing person: orange jackets,navigate to patio -> detect_person with wearing at patio -> describe_property -> navigate to operator -> tell
+intent: navigate location: study intent: find object: plates intent: grasp intent: bring location: office recipient: Sam,navigate to study -> detect_object plates -> grasp -> navigate to office -> deliver plates to Sam
+intent: follow location: entrance filter: pointing person: person,navigate to entrance -> guide_person person to entrance
+intent: tell location: on the side table attribute: lightest,navigate to on the side table -> detect_object lightest at on the side table -> describe_property -> navigate to operator -> tell
